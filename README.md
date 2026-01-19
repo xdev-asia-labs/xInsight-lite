@@ -10,9 +10,7 @@
   [![Swift](https://img.shields.io/badge/Swift-5.9-orange)](https://swift.org)
   [![Price](https://img.shields.io/badge/price-FREE-brightgreen)](https://github.com/tdduydev/xInsight-lite)
   
-  <a href="https://apps.apple.com/app/xinsight-lite/id6740610582">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="50">
-  </a>
+  [![Download on Mac App Store](https://img.shields.io/badge/Download_on_the-Mac_App_Store-blue?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/xinsight-lite/id6740610582)
 </div>
 
 ---
