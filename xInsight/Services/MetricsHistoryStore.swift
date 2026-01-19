@@ -54,14 +54,16 @@ final class MetricsHistoryStore: ObservableObject {
         
         let dbPath = xInsightDir.appendingPathComponent("metrics_history.sqlite").path
         
+        // Open database on dbQueue for thread safety
         dbQueue.async { [weak self] in
             guard let self = self else { return }
             
-            if sqlite3_open(dbPath, &self.db) == SQLITE_OK {
-                self.createTables()
-                Task { @MainActor in
-                    self.isReady = true
-                    self.updateStats()
+            var dbPointer: OpaquePointer?
+            if sqlite3_open(dbPath, &dbPointer) == SQLITE_OK {
+                // Store db pointer
+                Task { @MainActor [weak self] in
+                    self?.db = dbPointer
+                    self?.createTablesAsync()
                 }
             } else {
                 print("MetricsHistoryStore: Failed to open database")
@@ -69,7 +71,21 @@ final class MetricsHistoryStore: ObservableObject {
         }
     }
     
-    private func createTables() {
+    @MainActor
+    private func createTablesAsync() {
+        guard let db = db else { return }
+        
+        dbQueue.async { [weak self] in
+            self?.createTablesOnQueue(db: db)
+            
+            Task { @MainActor [weak self] in
+                self?.isReady = true
+                self?.updateStats()
+            }
+        }
+    }
+    
+    private func createTablesOnQueue(db: OpaquePointer) {
         let createTableSQL = """
         CREATE TABLE IF NOT EXISTS metrics_snapshots (
             id INTEGER PRIMARY KEY AUTOINCREMENT,

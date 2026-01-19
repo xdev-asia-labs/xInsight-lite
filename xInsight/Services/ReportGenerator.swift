@@ -325,7 +325,7 @@ final class ReportGenerator: ObservableObject {
     
     private func generateHTMLPerformanceTrends(period: AnalysisPeriod) -> String {
         let patterns = trendAnalyzer.dailyPatterns
-        let weeklyPatterns = trendAnalyzer.weeklyPatterns
+        _ = trendAnalyzer.weeklyPatterns  // Reserved for future enhanced report
         let anomalies = trendAnalyzer.anomalies
         
         let dateFormatter = DateFormatter()

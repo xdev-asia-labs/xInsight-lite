@@ -97,17 +97,7 @@ struct DashboardView: View {
                     sidebarItem(.benchmark, icon: "gauge.with.dots.needle.33percent", title: "Benchmark")
                     sidebarItem(.insights, icon: "lightbulb.max", title: L10n.string(.insights), badge: insightEngine.currentInsights.count)
                     sidebarItem(.security, icon: "shield.checkered", title: L10n.string(.security))
-                }
-                
-                Section(L10n.string(.tools)) {
-                    sidebarItem(.cleanup, icon: "trash.circle", title: L10n.string(.cleanup))
-                    sidebarItem(.uninstaller, icon: "app.badge.checkmark", title: L10n.string(.uninstaller))
-                    sidebarItem(.startupManager, icon: "arrow.right.circle", title: L10n.string(.startupManager))
                     sidebarItem(.settings, icon: "gear", title: L10n.string(.settings))
-                }
-                
-                Section("Developer") {
-                    sidebarItem(.thermal, icon: "thermometer.variable.and.figure", title: "xThermal")
                 }
             }
             .listStyle(.sidebar)

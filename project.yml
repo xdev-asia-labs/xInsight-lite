@@ -41,6 +41,10 @@ targets:
           - "@executable_path/../Frameworks"
     entitlements:
       path: xInsight/xInsight.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.network.client: true
+        com.apple.security.files.user-selected.read-write: true
     dependencies:
       - target: xInsightWidgetExtension
         embed: true
@@ -66,6 +70,10 @@ targets:
           - "@executable_path/../../../../Frameworks"
     entitlements:
       path: xInsightWidget/xInsightWidget.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - group.asia.xdev.xInsight-lite
 
 schemes:
   xInsight-lite:

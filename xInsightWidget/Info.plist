@@ -8,6 +8,8 @@
 	<string>xInsight Lite Widgets</string>
 	<key>CFBundleName</key>
 	<string>xInsightWidgetExtension</string>
+	<key>CFBundleExecutable</key>
+	<string>xInsightWidgetExtension</string>
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleVersion</key>

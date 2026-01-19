@@ -410,7 +410,7 @@ struct HardwareInfoTab: View {
     }
     
     private func getSerialNumber() -> String? {
-        let platformExpert = IOServiceGetMatchingService(kIOMasterPortDefault, IOServiceMatching("IOPlatformExpertDevice"))
+        let platformExpert = IOServiceGetMatchingService(kIOMainPortDefault, IOServiceMatching("IOPlatformExpertDevice"))
         defer { IOObjectRelease(platformExpert) }
         
         guard platformExpert != 0,

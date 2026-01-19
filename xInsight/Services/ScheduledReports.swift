@@ -93,7 +93,7 @@ final class ScheduledReports: ObservableObject {
         let maxCPU = hourlyData.map(\.maxCPU).max() ?? 0
         let avgTemp = hourlyData.map(\.avgTemperature).reduce(0, +) / Double(hourlyData.count)
         
-        let summary = DailyReportSummary(
+        _ = DailyReportSummary(
             date: endDate,
             avgCPU: avgCPU,
             maxCPU: maxCPU,
@@ -128,7 +128,7 @@ final class ScheduledReports: ObservableObject {
         guard !dailyData.isEmpty else { return }
         
         let avgCPU = dailyData.map(\.avgCPU).reduce(0, +) / Double(dailyData.count)
-        let maxCPU = dailyData.map(\.maxCPU).max() ?? 0
+        _ = dailyData.map(\.maxCPU).max() ?? 0  // maxCPU reserved for future use
         let avgTemp = dailyData.map(\.avgTemperature).reduce(0, +) / Double(dailyData.count)
         
         // Calculate trend

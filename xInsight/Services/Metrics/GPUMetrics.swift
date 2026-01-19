@@ -89,9 +89,6 @@ class GPUMetrics {
         // This is a simplified estimation
         // In reality, would need to use Metal System Trace
         
-        // Check if any GPU-intensive apps are running
-        let heavyGPUApps = ["WindowServer", "Safari", "Chrome", "Xcode", "Final Cut"]
-        
         // For now, return a low default
         // Real implementation would use GPU performance counters
         return 5.0

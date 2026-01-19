@@ -13,6 +13,18 @@
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/01_screenshot.png" width="800" alt="Overview">
+  <img src="screenshots/02_screenshot.png" width="800" alt="CPU Detail">
+  <img src="screenshots/03_screenshot.png" width="800" alt="GPU Detail">
+  <img src="screenshots/04_screenshot.png" width="800" alt="Memory">
+  <img src="screenshots/05_screenshot.png" width="800" alt="Network">
+</p>
+
+---
+
 ## ✨ Features
 
 ### 💻 Hardware Information
