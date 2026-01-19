@@ -142,7 +142,7 @@ struct xInsightShortcuts: AppShortcutsProvider {
             intent: GetTemperatureIntent(),
             phrases: [
                 "Get temperature in \(.applicationName)",
-                "Check Mac temperature"
+                "Check Mac temperature with \(.applicationName)"
             ],
             shortTitle: "Temperature",
             systemImageName: "thermometer"

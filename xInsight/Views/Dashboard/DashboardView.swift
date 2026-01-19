@@ -107,8 +107,6 @@ struct DashboardView: View {
                 }
                 
                 Section("Developer") {
-                    sidebarItem(.docker, icon: "shippingbox.fill", title: "Docker")
-                    sidebarItem(.homebrew, icon: "mug.fill", title: "Homebrew")
                     sidebarItem(.thermal, icon: "thermometer.variable.and.figure", title: "xThermal")
                 }
             }
@@ -181,10 +179,6 @@ struct DashboardView: View {
             BenchmarkTab()
         case .processTimeline:
             ProcessTimelineTab()
-        case .docker:
-            DockerTab()
-        case .homebrew:
-            HomebrewTab()
         case .thermal:
             ThermalTab()
         case .settings:
@@ -216,8 +210,6 @@ enum DashboardTab: String, CaseIterable, Identifiable, Hashable {
     case cleanup
     case uninstaller
     case startupManager
-    case docker
-    case homebrew
     case thermal
     case settings
     

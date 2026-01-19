@@ -223,8 +223,6 @@ extension DashboardTab {
         case .uninstaller: return "Uninstaller"
         case .startupManager: return "Startup Manager"
         case .security: return "Security"
-        case .docker: return "Docker"
-        case .homebrew: return "Homebrew"
         case .thermal: return "xThermal"
         case .settings: return "Settings"
         }

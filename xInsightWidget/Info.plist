@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>asia.xdev.xInsight.widget</string>
+	<string>asia.xdev.xInsight-lite.widget</string>
 	<key>CFBundleDisplayName</key>
-	<string>xInsight Widgets</string>
+	<string>xInsight Lite Widgets</string>
 	<key>CFBundleName</key>
 	<string>xInsightWidgetExtension</string>
 	<key>CFBundlePackageType</key>

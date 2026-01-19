@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B0D002D781C26C6F410D08E"
-               BuildableName = "xInsight.app"
-               BlueprintName = "xInsight"
-               ReferencedContainer = "container:xInsight.xcodeproj">
+               BlueprintIdentifier = "2AEB17C45315E76E9DCAD8C9"
+               BuildableName = "xInsight-lite.app"
+               BlueprintName = "xInsight-lite"
+               ReferencedContainer = "container:xInsight-lite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,10 +29,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "80E8ABA8CF6D1AE1A79541F3"
+               BlueprintIdentifier = "040E744E07E4399A1EBAFD82"
                BuildableName = "xInsightWidgetExtension.appex"
                BlueprintName = "xInsightWidgetExtension"
-               ReferencedContainer = "container:xInsight.xcodeproj">
+               ReferencedContainer = "container:xInsight-lite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,10 +46,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B0D002D781C26C6F410D08E"
-            BuildableName = "xInsight.app"
-            BlueprintName = "xInsight"
-            ReferencedContainer = "container:xInsight.xcodeproj">
+            BlueprintIdentifier = "2AEB17C45315E76E9DCAD8C9"
+            BuildableName = "xInsight-lite.app"
+            BlueprintName = "xInsight-lite"
+            ReferencedContainer = "container:xInsight-lite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B0D002D781C26C6F410D08E"
-            BuildableName = "xInsight.app"
-            BlueprintName = "xInsight"
-            ReferencedContainer = "container:xInsight.xcodeproj">
+            BlueprintIdentifier = "2AEB17C45315E76E9DCAD8C9"
+            BuildableName = "xInsight-lite.app"
+            BlueprintName = "xInsight-lite"
+            ReferencedContainer = "container:xInsight-lite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -90,10 +90,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B0D002D781C26C6F410D08E"
-            BuildableName = "xInsight.app"
-            BlueprintName = "xInsight"
-            ReferencedContainer = "container:xInsight.xcodeproj">
+            BlueprintIdentifier = "2AEB17C45315E76E9DCAD8C9"
+            BuildableName = "xInsight-lite.app"
+            BlueprintName = "xInsight-lite"
+            ReferencedContainer = "container:xInsight-lite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
