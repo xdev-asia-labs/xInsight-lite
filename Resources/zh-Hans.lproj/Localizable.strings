@@ -1,0 +1,147 @@
+/* App */
+"appName" = "xInsight";
+"appDescription" = "macOS 系统智能分析";
+
+/* Menu Bar */
+"menuBarOpen" = "打开仪表板";
+"menuBarQuit" = "退出";
+"menuBarRefresh" = "刷新";
+
+/* Dashboard Tabs */
+"overview" = "概览";
+"processes" = "进程";
+"insights" = "洞察";
+"timeline" = "时间线";
+"ports" = "端口";
+"cleanup" = "清理";
+"settings" = "设置";
+"cpuDetail" = "CPU 详情";
+"gpuDetail" = "GPU 详情";
+"memoryDetail" = "内存详情";
+"diskDetail" = "磁盘详情";
+"networkTraffic" = "网络流量";
+"batteryHealth" = "电池健康";
+"uninstaller" = "卸载程序";
+"startupManager" = "启动项管理";
+"security" = "安全";
+
+/* System Status */
+"systemOverview" = "系统概览";
+"systemNormal" = "系统运行正常";
+"systemWarning" = "检测到警告";
+"systemCritical" = "发现严重问题";
+"systemNormalDesc" = "您的 Mac 运行顺畅";
+
+/* Metrics */
+"cpu" = "CPU";
+"memory" = "内存";
+"gpu" = "GPU";
+"diskIO" = "磁盘 I/O";
+"temperature" = "温度";
+"network" = "网络";
+"fanSpeed" = "风扇转速";
+
+/* CPU Detail */
+"cpuUsage" = "CPU 使用率";
+"performanceCores" = "性能核心";
+"efficiencyCores" = "能效核心";
+"allCores" = "所有核心";
+"coreUsage" = "核心使用率";
+"systemLoad" = "系统负载";
+"userLoad" = "用户负载";
+"idleTime" = "空闲时间";
+
+/* GPU Detail */
+"gpuUsage" = "GPU 使用率";
+"gpuCores" = "GPU 核心数";
+"gpuMemory" = "GPU 显存";
+"gpuTemperature" = "GPU 温度";
+"metalPerformance" = "Metal 性能";
+
+/* Memory Detail */
+"memoryUsage" = "内存使用率";
+"memoryUsed" = "已用";
+"memoryFree" = "可用";
+"memoryWired" = "固定";
+"memoryCompressed" = "压缩";
+"memorySwap" = "交换";
+"memoryPressure" = "内存压力";
+
+/* Status */
+"avgCPU" = "平均 CPU";
+"avgMemory" = "平均内存";
+"avgGPU" = "平均 GPU";
+"last30s" = "过去 30 秒";
+"samples" = "采样数";
+"collected" = "已收集";
+"activeInsights" = "活跃洞察";
+"noIssues" = "未检测到问题";
+"selectInsightDetail" = "选择洞察查看详情";
+
+/* Actions */
+"refresh" = "刷新";
+"close" = "关闭";
+"configure" = "配置";
+"reset" = "重置";
+"done" = "完成";
+"scan" = "扫描";
+"clean" = "清理";
+"stop" = "停止";
+"start" = "开始";
+
+/* Hardware */
+"chip" = "芯片";
+"cores" = "核心";
+"totalMemory" = "总内存";
+"total" = "总计";
+"hardware" = "硬件";
+"sidebar" = "边栏";
+
+/* Process */
+"pid" = "进程ID";
+"relatedProcesses" = "相关进程";
+"processName" = "进程名称";
+"processesFilter" = "过滤进程";
+"allProcesses" = "所有进程";
+"userProcesses" = "用户进程";
+"systemProcesses" = "系统进程";
+"backgroundProcesses" = "后台进程";
+
+/* Settings */
+"enableNotifications" = "启用通知";
+"launchAtLogin" = "登录时启动";
+"refreshInterval" = "刷新间隔";
+
+/* Disk */
+"diskUsage" = "磁盘使用率";
+"diskRead" = "读取";
+"diskWrite" = "写入";
+"diskFree" = "可用空间";
+"diskUsed" = "已用空间";
+
+/* Network */
+"networkDownload" = "下载";
+"networkUpload" = "上传";
+"networkConnections" = "连接数";
+
+/* Battery */
+"batteryLevel" = "电量";
+"batteryStatus" = "状态";
+"batteryCharging" = "正在充电";
+"batteryDischarging" = "电池供电";
+"batteryFull" = "已充满";
+"cycleCount" = "循环次数";
+"noBatteryDetected" = "未检测到电池";
+"batTemperature" = "电池温度";
+"batVoltage" = "电压";
+"tipKeepTemp" = "保持 Mac 在 10°C 至 35°C 之间以延长电池寿命";
+"tipKeepCharge" = "日常使用时保持电量在 20-80% 之间";
+"tipRemoveCharger" = "充满 100% 后可拔掉充电器以减少热量";
+"tipAppleRates" = "Apple 认为电池在 1000 次循环后仍保持 80% 容量为正常";
+
+/* Widget Labels */
+"widgetUsageHistory" = "使用历史";
+"widgetTopProcesses" = "排名靠前进程";
+"widgetActivity" = "活动";
+"selectWidgets" = "选择要显示在菜单栏中的小组件";
+

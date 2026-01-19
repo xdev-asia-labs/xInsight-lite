@@ -1,0 +1,147 @@
+/* App */
+"appName" = "xInsight";
+"appDescription" = "macOS システムインサイト";
+
+/* Menu Bar */
+"menuBarOpen" = "ダッシュボードを開く";
+"menuBarQuit" = "終了";
+"menuBarRefresh" = "更新";
+
+/* Dashboard Tabs */
+"overview" = "概要";
+"processes" = "プロセス";
+"insights" = "インサイト";
+"timeline" = "タイムライン";
+"ports" = "ポート";
+"cleanup" = "クリーンアップ";
+"settings" = "設定";
+"cpuDetail" = "CPU 詳細";
+"gpuDetail" = "GPU 詳細";
+"memoryDetail" = "メモリ詳細";
+"diskDetail" = "ディスク詳細";
+"networkTraffic" = "ネットワーク";
+"batteryHealth" = "バッテリー";
+"uninstaller" = "アンインストーラー";
+"startupManager" = "起動項目";
+"security" = "セキュリティ";
+
+/* System Status */
+"systemOverview" = "システム概要";
+"systemNormal" = "正常に動作中";
+"systemWarning" = "警告を検出";
+"systemCritical" = "重大な問題";
+"systemNormalDesc" = "Macは正常に動作しています";
+
+/* Metrics */
+"cpu" = "CPU";
+"memory" = "メモリ";
+"gpu" = "GPU";
+"diskIO" = "ディスク I/O";
+"temperature" = "温度";
+"network" = "ネットワーク";
+"fanSpeed" = "ファン速度";
+
+/* CPU Detail */
+"cpuUsage" = "CPU 使用率";
+"performanceCores" = "パフォーマンスコア";
+"efficiencyCores" = "効率コア";
+"allCores" = "全コア";
+"coreUsage" = "コア使用率";
+"systemLoad" = "システム負荷";
+"userLoad" = "ユーザー負荷";
+"idleTime" = "アイドル時間";
+
+/* GPU Detail */
+"gpuUsage" = "GPU 使用率";
+"gpuCores" = "GPU コア数";
+"gpuMemory" = "GPU メモリ";
+"gpuTemperature" = "GPU 温度";
+"metalPerformance" = "Metal パフォーマンス";
+
+/* Memory Detail */
+"memoryUsage" = "メモリ使用率";
+"memoryUsed" = "使用中";
+"memoryFree" = "空き";
+"memoryWired" = "固定";
+"memoryCompressed" = "圧縮";
+"memorySwap" = "スワップ";
+"memoryPressure" = "メモリ圧力";
+
+/* Status */
+"avgCPU" = "平均 CPU";
+"avgMemory" = "平均メモリ";
+"avgGPU" = "平均 GPU";
+"last30s" = "過去30秒";
+"samples" = "サンプル";
+"collected" = "収集済み";
+"activeInsights" = "アクティブインサイト";
+"noIssues" = "問題は検出されませんでした";
+"selectInsightDetail" = "インサイトを選択して詳細を表示";
+
+/* Actions */
+"refresh" = "更新";
+"close" = "閉じる";
+"configure" = "設定";
+"reset" = "リセット";
+"done" = "完了";
+"scan" = "スキャン";
+"clean" = "クリーン";
+"stop" = "停止";
+"start" = "開始";
+
+/* Hardware */
+"chip" = "チップ";
+"cores" = "コア";
+"totalMemory" = "合計メモリ";
+"total" = "合計";
+"hardware" = "ハードウェア";
+"sidebar" = "サイドバー";
+
+/* Process */
+"pid" = "PID";
+"relatedProcesses" = "関連プロセス";
+"processName" = "プロセス名";
+"processesFilter" = "フィルター";
+"allProcesses" = "すべて";
+"userProcesses" = "ユーザー";
+"systemProcesses" = "システム";
+"backgroundProcesses" = "バックグラウンド";
+
+/* Settings */
+"enableNotifications" = "通知を有効にする";
+"launchAtLogin" = "ログイン時に起動";
+"refreshInterval" = "更新間隔";
+
+/* Disk */
+"diskUsage" = "ディスク使用率";
+"diskRead" = "読み取り";
+"diskWrite" = "書き込み";
+"diskFree" = "空き容量";
+"diskUsed" = "使用済み";
+
+/* Network */
+"networkDownload" = "ダウンロード";
+"networkUpload" = "アップロード";
+"networkConnections" = "接続数";
+
+/* Battery */
+"batteryLevel" = "残量";
+"batteryStatus" = "状態";
+"batteryCharging" = "充電中";
+"batteryDischarging" = "バッテリー駆動";
+"batteryFull" = "満充電";
+"cycleCount" = "充電回数";
+"noBatteryDetected" = "バッテリーが検出されません";
+"batTemperature" = "バッテリー温度";
+"batVoltage" = "電圧";
+"tipKeepTemp" = "バッテリー寿命のため、Macを10°C〜35°Cに保ってください";
+"tipKeepCharge" = "日常使用では20-80%の充電を維持";
+"tipRemoveCharger" = "100%で充電器を外すと熱を軽減";
+"tipAppleRates" = "Appleは1000サイクルで80%容量を正常と評価";
+
+/* Widget Labels */
+"widgetUsageHistory" = "使用履歴";
+"widgetTopProcesses" = "上位プロセス";
+"widgetActivity" = "アクティビティ";
+"selectWidgets" = "メニューバーに表示するウィジェットを選択";
+

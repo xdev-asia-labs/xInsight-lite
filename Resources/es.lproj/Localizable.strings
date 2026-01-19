@@ -1,0 +1,147 @@
+/* App */
+"appName" = "xInsight";
+"appDescription" = "Análisis Inteligente del Sistema macOS";
+
+/* Menu Bar */
+"menuBarOpen" = "Abrir Panel";
+"menuBarQuit" = "Salir";
+"menuBarRefresh" = "Actualizar";
+
+/* Dashboard Tabs */
+"overview" = "Resumen";
+"processes" = "Procesos";
+"insights" = "Análisis";
+"timeline" = "Línea de Tiempo";
+"ports" = "Puertos";
+"cleanup" = "Limpieza";
+"settings" = "Ajustes";
+"cpuDetail" = "Detalles de CPU";
+"gpuDetail" = "Detalles de GPU";
+"memoryDetail" = "Detalles de Memoria";
+"diskDetail" = "Detalles de Disco";
+"networkTraffic" = "Tráfico de Red";
+"batteryHealth" = "Salud de Batería";
+"uninstaller" = "Desinstalar";
+"startupManager" = "Inicio";
+"security" = "Seguridad";
+
+/* System Status */
+"systemOverview" = "Resumen del Sistema";
+"systemNormal" = "Sistema funcionando normalmente";
+"systemWarning" = "advertencias detectadas";
+"systemCritical" = "problemas críticos";
+"systemNormalDesc" = "Tu Mac funciona correctamente";
+
+/* Metrics */
+"cpu" = "CPU";
+"memory" = "Memoria";
+"gpu" = "GPU";
+"diskIO" = "E/S de Disco";
+"temperature" = "Temperatura";
+"network" = "Red";
+"fanSpeed" = "Velocidad del Ventilador";
+
+/* CPU Detail */
+"cpuUsage" = "Uso de CPU";
+"performanceCores" = "Núcleos de Rendimiento";
+"efficiencyCores" = "Núcleos de Eficiencia";
+"allCores" = "Todos los Núcleos";
+"coreUsage" = "Uso por Núcleo";
+"systemLoad" = "Carga del Sistema";
+"userLoad" = "Carga del Usuario";
+"idleTime" = "Tiempo Inactivo";
+
+/* GPU Detail */
+"gpuUsage" = "Uso de GPU";
+"gpuCores" = "Núcleos GPU";
+"gpuMemory" = "Memoria GPU";
+"gpuTemperature" = "Temperatura GPU";
+"metalPerformance" = "Rendimiento Metal";
+
+/* Memory Detail */
+"memoryUsage" = "Uso de Memoria";
+"memoryUsed" = "Usada";
+"memoryFree" = "Libre";
+"memoryWired" = "Cableada";
+"memoryCompressed" = "Comprimida";
+"memorySwap" = "Intercambio";
+"memoryPressure" = "Presión de Memoria";
+
+/* Status */
+"avgCPU" = "CPU Prom.";
+"avgMemory" = "Mem. Prom.";
+"avgGPU" = "GPU Prom.";
+"last30s" = "Últimos 30s";
+"samples" = "Muestras";
+"collected" = "Recopiladas";
+"activeInsights" = "Análisis Activos";
+"noIssues" = "Sin problemas detectados";
+"selectInsightDetail" = "Selecciona un análisis para ver detalles";
+
+/* Actions */
+"refresh" = "Actualizar";
+"close" = "Cerrar";
+"configure" = "Configurar";
+"reset" = "Restablecer";
+"done" = "Listo";
+"scan" = "Escanear";
+"clean" = "Limpiar";
+"stop" = "Detener";
+"start" = "Iniciar";
+
+/* Hardware */
+"chip" = "Chip";
+"cores" = "Núcleos";
+"totalMemory" = "Memoria Total";
+"total" = "Total";
+"hardware" = "Hardware";
+"sidebar" = "Barra Lateral";
+
+/* Process */
+"pid" = "PID";
+"relatedProcesses" = "Procesos Relacionados";
+"processName" = "Nombre del Proceso";
+"processesFilter" = "Filtrar";
+"allProcesses" = "Todos";
+"userProcesses" = "Usuario";
+"systemProcesses" = "Sistema";
+"backgroundProcesses" = "Segundo Plano";
+
+/* Settings */
+"enableNotifications" = "Activar Notificaciones";
+"launchAtLogin" = "Iniciar al Arrancar";
+"refreshInterval" = "Intervalo de Actualización";
+
+/* Disk */
+"diskUsage" = "Uso de Disco";
+"diskRead" = "Lectura";
+"diskWrite" = "Escritura";
+"diskFree" = "Espacio Libre";
+"diskUsed" = "Espacio Usado";
+
+/* Network */
+"networkDownload" = "Descarga";
+"networkUpload" = "Subida";
+"networkConnections" = "Conexiones";
+
+/* Battery */
+"batteryLevel" = "Nivel de Batería";
+"batteryStatus" = "Estado";
+"batteryCharging" = "Cargando";
+"batteryDischarging" = "En Batería";
+"batteryFull" = "Carga Completa";
+"cycleCount" = "Ciclos de Carga";
+"noBatteryDetected" = "Batería no detectada";
+"batTemperature" = "Temperatura de Batería";
+"batVoltage" = "Voltaje";
+"tipKeepTemp" = "Mantén tu Mac entre 10°C y 35°C para optimizar la batería";
+"tipKeepCharge" = "Mantén la carga entre 20-80% para uso diario";
+"tipRemoveCharger" = "Desconecta el cargador al 100% para reducir el calor";
+"tipAppleRates" = "Apple considera normal 80% de capacidad tras 1000 ciclos";
+
+/* Widget Labels */
+"widgetUsageHistory" = "Historial de uso";
+"widgetTopProcesses" = "Procesos principales";
+"widgetActivity" = "Actividad";
+"selectWidgets" = "Selecciona widgets para mostrar en la barra de menús";
+

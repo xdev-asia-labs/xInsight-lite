@@ -1,0 +1,147 @@
+/* App */
+"appName" = "xInsight";
+"appDescription" = "macOS 시스템 인사이트";
+
+/* Menu Bar */
+"menuBarOpen" = "대시보드 열기";
+"menuBarQuit" = "종료";
+"menuBarRefresh" = "새로고침";
+
+/* Dashboard Tabs */
+"overview" = "개요";
+"processes" = "프로세스";
+"insights" = "인사이트";
+"timeline" = "타임라인";
+"ports" = "포트";
+"cleanup" = "정리";
+"settings" = "설정";
+"cpuDetail" = "CPU 상세";
+"gpuDetail" = "GPU 상세";
+"memoryDetail" = "메모리 상세";
+"diskDetail" = "디스크 상세";
+"networkTraffic" = "네트워크";
+"batteryHealth" = "배터리";
+"uninstaller" = "제거 프로그램";
+"startupManager" = "시작 프로그램";
+"security" = "보안";
+
+/* System Status */
+"systemOverview" = "시스템 개요";
+"systemNormal" = "정상 작동 중";
+"systemWarning" = "경고 감지됨";
+"systemCritical" = "심각한 문제";
+"systemNormalDesc" = "Mac이 정상적으로 작동 중입니다";
+
+/* Metrics */
+"cpu" = "CPU";
+"memory" = "메모리";
+"gpu" = "GPU";
+"diskIO" = "디스크 I/O";
+"temperature" = "온도";
+"network" = "네트워크";
+"fanSpeed" = "팬 속도";
+
+/* CPU Detail */
+"cpuUsage" = "CPU 사용률";
+"performanceCores" = "성능 코어";
+"efficiencyCores" = "효율 코어";
+"allCores" = "모든 코어";
+"coreUsage" = "코어 사용률";
+"systemLoad" = "시스템 부하";
+"userLoad" = "사용자 부하";
+"idleTime" = "유휴 시간";
+
+/* GPU Detail */
+"gpuUsage" = "GPU 사용률";
+"gpuCores" = "GPU 코어";
+"gpuMemory" = "GPU 메모리";
+"gpuTemperature" = "GPU 온도";
+"metalPerformance" = "Metal 성능";
+
+/* Memory Detail */
+"memoryUsage" = "메모리 사용률";
+"memoryUsed" = "사용 중";
+"memoryFree" = "여유";
+"memoryWired" = "고정";
+"memoryCompressed" = "압축";
+"memorySwap" = "스왑";
+"memoryPressure" = "메모리 압력";
+
+/* Status */
+"avgCPU" = "평균 CPU";
+"avgMemory" = "평균 메모리";
+"avgGPU" = "평균 GPU";
+"last30s" = "최근 30초";
+"samples" = "샘플";
+"collected" = "수집됨";
+"activeInsights" = "활성 인사이트";
+"noIssues" = "문제 없음";
+"selectInsightDetail" = "인사이트를 선택하여 상세 보기";
+
+/* Actions */
+"refresh" = "새로고침";
+"close" = "닫기";
+"configure" = "구성";
+"reset" = "재설정";
+"done" = "완료";
+"scan" = "스캔";
+"clean" = "정리";
+"stop" = "중지";
+"start" = "시작";
+
+/* Hardware */
+"chip" = "칩";
+"cores" = "코어";
+"totalMemory" = "전체 메모리";
+"total" = "전체";
+"hardware" = "하드웨어";
+"sidebar" = "사이드바";
+
+/* Process */
+"pid" = "PID";
+"relatedProcesses" = "관련 프로세스";
+"processName" = "프로세스 이름";
+"processesFilter" = "필터";
+"allProcesses" = "전체";
+"userProcesses" = "사용자";
+"systemProcesses" = "시스템";
+"backgroundProcesses" = "백그라운드";
+
+/* Settings */
+"enableNotifications" = "알림 활성화";
+"launchAtLogin" = "로그인 시 시작";
+"refreshInterval" = "새로고침 간격";
+
+/* Disk */
+"diskUsage" = "디스크 사용률";
+"diskRead" = "읽기";
+"diskWrite" = "쓰기";
+"diskFree" = "여유 공간";
+"diskUsed" = "사용 공간";
+
+/* Network */
+"networkDownload" = "다운로드";
+"networkUpload" = "업로드";
+"networkConnections" = "연결 수";
+
+/* Battery */
+"batteryLevel" = "배터리 잔량";
+"batteryStatus" = "상태";
+"batteryCharging" = "충전 중";
+"batteryDischarging" = "배터리 사용 중";
+"batteryFull" = "완전 충전";
+"cycleCount" = "충전 횟수";
+"noBatteryDetected" = "배터리 없음";
+"batTemperature" = "배터리 온도";
+"batVoltage" = "전압";
+"tipKeepTemp" = "배터리 수명을 위해 Mac을 10°C~35°C 사이로 유지하세요";
+"tipKeepCharge" = "일상 사용 시 20-80% 충전 유지";
+"tipRemoveCharger" = "100%에서 충전기를 분리하면 열을 줄일 수 있습니다";
+"tipAppleRates" = "Apple은 1000회 사이클 후 80% 용량을 정상으로 평가";
+
+/* Widget Labels */
+"widgetUsageHistory" = "사용 기록";
+"widgetTopProcesses" = "상위 프로세스";
+"widgetActivity" = "활동";
+"selectWidgets" = "메뉴 막대에 표시할 위젯 선택";
+

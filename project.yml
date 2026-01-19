@@ -1,0 +1,85 @@
+name: xInsight-lite
+options:
+  bundleIdPrefix: asia.xdev
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: "M6C7NX9MUZ"
+  configs:
+    Debug:
+      SWIFT_OPTIMIZATION_LEVEL: "-Onone"
+    Release:
+      SWIFT_OPTIMIZATION_LEVEL: "-O"
+
+targets:
+  xInsight-lite:
+    type: application
+    platform: macOS
+    sources:
+      - path: xInsight
+        excludes:
+          - "**/*.entitlements"
+          - "Services/AI/**"
+          - "Views/Dashboard/AITab.swift"
+      - path: Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: asia.xdev.xInsight-lite
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_LSUIElement: false
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_ENTITLEMENTS: xInsight/xInsight.entitlements
+        LD_RUNPATH_SEARCH_PATHS:
+          - $(inherited)
+          - "@executable_path/../Frameworks"
+    entitlements:
+      path: xInsight/xInsight.entitlements
+    dependencies:
+      - target: xInsightWidgetExtension
+        embed: true
+
+  xInsightWidgetExtension:
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: xInsightWidget
+        excludes:
+          - "**/*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: asia.xdev.xInsight-lite.widget
+        INFOPLIST_FILE: xInsightWidget/Info.plist
+        INFOPLIST_KEY_CFBundleDisplayName: xInsight Lite Widgets
+        CODE_SIGN_ENTITLEMENTS: xInsightWidget/xInsightWidget.entitlements
+        SKIP_INSTALL: YES
+        ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME: WidgetBackground
+        LD_RUNPATH_SEARCH_PATHS:
+          - $(inherited)
+          - "@executable_path/../Frameworks"
+          - "@executable_path/../../../../Frameworks"
+    entitlements:
+      path: xInsightWidget/xInsightWidget.entitlements
+
+schemes:
+  xInsight-lite:
+    build:
+      targets:
+        xInsight-lite: all
+        xInsightWidgetExtension: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

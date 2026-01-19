@@ -1,0 +1,55 @@
+# Xcode files
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Build artifacts
+.build/
+.swiftpm/
+Build/
+*.d
+*.dia
+*.profraw
+
+# macOS files
+.DS_Store
+*.dSYM.zip
+*.dSYM
+
+# IDE
+.idea/
+*.swp
+*~
+.vscode/
+
+# Archives
+*.xcarchive
+
+# App bundles
+*.app/
+*.dmg
+
+# Docs (Next.js)
+docs/node_modules/
+docs/.next/
+docs/out/
+docs/.turbo/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.vercel/
+Thumbs.db

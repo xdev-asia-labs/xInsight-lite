@@ -1,0 +1,829 @@
+/* App */
+"appName" = "xInsight";
+"appDescription" = "AI System Insight for macOS";
+
+/* Menu Bar */
+"menuBarOpen" = "Open Dashboard";
+"menuBarQuit" = "Quit";
+"menuBarRefresh" = "Refresh";
+
+/* Dashboard Tabs */
+"overview" = "Overview";
+"processes" = "Processes";
+"insights" = "Insights";
+"timeline" = "Timeline";
+"ports" = "Ports";
+"cleanup" = "Cleanup";
+"settings" = "Settings";
+"cpuDetail" = "CPU Details";
+"gpuDetail" = "GPU Details";
+"memoryDetail" = "Memory Details";
+"diskDetail" = "Disk Details";
+"networkTraffic" = "Network Traffic";
+"batteryHealth" = "Battery Health";
+"uninstaller" = "Uninstaller";
+"startupManager" = "Startup Manager";
+"security" = "Security";
+
+/* System Status */
+"systemOverview" = "System Overview";
+"systemNormal" = "System running normally";
+"systemWarning" = "warnings detected";
+"systemCritical" = "critical issues";
+"systemNormalDesc" = "Your Mac is running smoothly";
+
+/* Metrics */
+"cpu" = "CPU";
+"memory" = "Memory";
+"gpu" = "GPU";
+"diskIO" = "Disk I/O";
+"temperature" = "Temperature";
+"network" = "Network";
+"fanSpeed" = "Fan Speed";
+
+/* CPU Detail */
+"cpuUsage" = "CPU Usage";
+"performanceCores" = "Performance Cores";
+"efficiencyCores" = "Efficiency Cores";
+"allCores" = "All Cores";
+"coreUsage" = "Core Usage";
+"systemLoad" = "System Load";
+"userLoad" = "User Load";
+"idleTime" = "Idle Time";
+
+/* GPU Detail */
+"gpuUsage" = "GPU Usage";
+"gpuCores" = "GPU Cores";
+"gpuMemory" = "GPU Memory";
+"gpuTemperature" = "GPU Temperature";
+"metalPerformance" = "Metal Performance";
+
+/* Memory Detail */
+"memoryUsage" = "Memory Usage";
+"memoryUsed" = "Used";
+"memoryFree" = "Free";
+"memoryWired" = "Wired";
+"memoryCompressed" = "Compressed";
+"memorySwap" = "Swap";
+"memoryPressure" = "Memory Pressure";
+
+/* Status */
+"avgCPU" = "Avg CPU";
+"avgMemory" = "Avg Memory";
+"avgGPU" = "Avg GPU";
+"last30s" = "Last 30s";
+"samples" = "Samples";
+"collected" = "Collected";
+"activeInsights" = "Active Insights";
+"noIssues" = "No issues detected";
+"selectInsightDetail" = "Select an insight to view details";
+
+/* Actions */
+"refresh" = "Refresh";
+"close" = "Close";
+"configure" = "Configure";
+"reset" = "Reset";
+"done" = "Done";
+"scan" = "Scan";
+"clean" = "Clean";
+"stop" = "Stop";
+"start" = "Start";
+
+/* Fan Control */
+"fanControl" = "Fan Control";
+"fanAuto" = "Automatic";
+"fanManual" = "Manual";
+"fanSpeed_rpm" = "RPM";
+"noFan" = "No Fan (Passive Cooling)";
+
+/* Hardware */
+"chip" = "Chip";
+"cores" = "Cores";
+"type" = "Type";
+"total" = "Total";
+"hardware" = "Hardware";
+"details" = "Details";
+"history" = "History";
+"trend" = "Trend";
+"rising" = "Rising";
+"falling" = "Falling";
+"stable" = "Stable";
+"current" = "Current";
+"average" = "Average";
+
+/* Sidebar Sections */
+"monitor" = "Monitor";
+"analysis" = "Analysis";
+"tools" = "Tools";
+
+/* Settings Tabs */
+"language" = "Language";
+"notifications" = "Notifications";
+"thresholds" = "Thresholds";
+"about" = "About";
+
+/* Settings General */
+"launchAtLogin" = "Launch at Login";
+"showInDock" = "Show in Dock";
+"refreshInterval" = "Refresh Interval";
+"notifyWhen" = "Notify when:";
+"warningThresholds" = "Warning Thresholds";
+"resetToDefaults" = "Reset to Defaults";
+"general" = "General";
+
+/* Time Intervals */
+"oneSecond" = "1 second";
+"twoSeconds" = "2 seconds";
+"fiveSeconds" = "5 seconds";
+"tenSeconds" = "10 seconds";
+"intervalDescription" = "Shorter intervals provide more accurate data but use more resources.";
+
+/* Common Actions */
+"download" = "Download";
+"uninstall" = "Uninstall";
+"remove" = "Remove";
+"revealInFinder" = "Reveal in Finder";
+"checkForUpdates" = "Check for Updates";
+"rescan" = "Rescan";
+"setSpeed" = "Set Speed";
+"openSecuritySettings" = "Open Security Settings";
+"openInstalled" = "Open Installed";
+"stopPort" = "Stop Port";
+"openPlist" = "Open Plist";
+
+/* Status Messages */
+"upToDate" = "You're up to date";
+"updateAvailable" = "Update available!";
+"checkingUpdates" = "Checking for updates...";
+"currentVersion" = "Current Version";
+"latestVersion" = "Latest Version";
+"version" = "Version";
+
+/* Thermal */
+"thermal" = "Thermal";
+"nominal" = "Nominal";
+"normal" = "Normal";
+
+/* Notification Settings */
+"enableNotifications" = "Enable Notifications";
+"cpuExceedsThreshold" = "CPU usage exceeds threshold";
+"memoryPressureHigh" = "Memory pressure is high";
+"thermalThrottling" = "System is thermal throttling";
+"portStartsStops" = "Port starts/stops";
+"notificationSound" = "Notification Sound";
+"default" = "Default";
+"subtle" = "Subtle";
+"none" = "None";
+
+/* Fan Control Specific */
+"fanControlWarning" = "⚠️ Manual fan control requires elevated privileges and is not available in sandboxed mode.";
+"fanAutoManaged" = "Fan speed is automatically managed by macOS based on thermal conditions.";
+"sipDisabled" = "SIP must be disabled (run 'csrutil disable' in Recovery Mode)";
+"installSmcTool" = "Install smc tool: github.com/hholtmann/smcFanControl/tree/master/smc-command";
+"sudoPrompt" = "Script will prompt for sudo password";
+"resetToAutomatic" = "Reset to Automatic";
+"advancedMode" = "Advanced Mode";
+"requiresSIPSudo" = "Requires SIP disabled & sudo";
+"downloadMacsFanControl" = "Download Macs Fan Control";
+"forMoreControl" = "For more control, try Macs Fan Control:";
+"currentRPM" = "Current RPM";
+"cpuTemp" = "CPU Temp";
+"status" = "Status";
+"idle" = "Idle";
+
+/* Disk & Cleanup */
+"largeFiles" = "Large Files";
+"scanning" = "Scanning...";
+"filesFound" = "files found";
+"successfullyFreed" = "Successfully freed";
+"confirmDelete" = "Are you sure you want to delete";
+"cannotBeUndone" = "This cannot be undone.";
+"ofData" = "of data?";
+"thisMayTakeAMoment" = "This may take a moment...";
+
+/* Cleanup Categories */
+"systemCaches" = "System Caches";
+"applicationLogs" = "Application Logs";
+"trash" = "Trash";
+"downloads30Days" = "Downloads (30+ days)";
+"safariCache" = "Safari Cache";
+"chromeCache" = "Chrome Cache";
+"firefoxCache" = "Firefox Cache";
+"edgeCache" = "Edge Cache";
+"braveCache" = "Brave Cache";
+"mailDownloads" = "Mail Downloads";
+"mailAttachments" = "Mail Attachments";
+"xcodeDerivedData" = "Xcode Derived Data";
+"xcodeArchives" = "Xcode Archives";
+"iosSimulators" = "iOS Simulators";
+"npmCache" = "npm Cache";
+"yarnCache" = "Yarn Cache";
+"cocoapodsCache" = "CocoaPods Cache";
+"gradleCache" = "Gradle Cache";
+"dockerImages" = "Docker Images";
+"homebrewCache" = "Homebrew Cache";
+"iosBackups" = "iOS Backups";
+"screenshotCache" = "Screenshot Cache";
+"oldMacosUpdates" = "Old macOS Updates";
+"spotlightIndex" = "Spotlight Index";
+"quickCleanup" = "Quick Cleanup";
+"fullScan" = "Full Scan";
+"smartCleanup" = "Smart Cleanup";
+"safeToDelete" = "Safe to delete";
+"largeFilesScanner" = "Large Files Scanner";
+"findLargeFiles" = "Find files larger than 100 MB";
+
+/* Processes */
+"killProcess" = "Kill Process";
+"forceQuit" = "Force Quit";
+"processName" = "Process Name";
+"pid" = "PID";
+"user" = "User";
+"sortBy" = "Sort By";
+
+/* Battery */
+"chargeLevel" = "Charge Level";
+"charging" = "Charging";
+"discharging" = "Discharging";
+"notCharging" = "Not Charging";
+"cycleCount" = "Cycle Count";
+"condition" = "Condition";
+"maximumCapacity" = "Maximum Capacity";
+"timeRemaining" = "Time Remaining";
+"powerSource" = "Power Source";
+"battery" = "Battery";
+"acPower" = "AC Power";
+
+/* Security */
+"sipEnabled" = "SIP Enabled";
+"sipDisabledStatus" = "SIP Disabled";
+"firewallEnabled" = "Firewall Enabled";
+"firewallDisabled" = "Firewall Disabled";
+"gatekeeperEnabled" = "Gatekeeper Enabled";
+"filevaultEnabled" = "FileVault Enabled";
+"filevaultDisabled" = "FileVault Disabled";
+
+/* Startup Manager */
+"loginItems" = "Login Items";
+"launchAgents" = "Launch Agents";
+"launchDaemons" = "Launch Daemons";
+"enabled" = "Enabled";
+"disabled" = "Disabled";
+
+/* More */
+"moreInfo" = "+ %d more";
+"preview" = "Preview / Xem trước:";
+"auto" = "(Auto)";
+"copyright" = "© 2024 xDev.asia";
+"mitLicense" = "MIT License";
+"appleSilicon" = "Apple Silicon";
+"appleSiliconMac" = "Apple Silicon Mac";
+"thermalManagement" = "thermal management";
+"unifiedLPDDR5" = "Unified LPDDR5";
+"appleSiliconIntegrated" = "Apple Silicon Integrated";
+
+/* Network Traffic Tab */
+"networkAndDisk" = "Network & Disk";
+"realTimeIO" = "Real-time I/O statistics";
+"read" = "Read";
+"write" = "Write";
+"activity60s" = "Activity (60s)";
+"activeConnections" = "Active Connections";
+
+/* Uninstaller Tab */
+"installedApps" = "Installed Apps";
+"appSize" = "App Size";
+"relatedFiles" = "Related Files";
+"totalToRemove" = "Total to remove:";
+"selectAnApp" = "Select an app to uninstall";
+"findAllRelatedFiles" = "xInsight will find all related files including caches, preferences, and support files.";
+"movedToTrash" = "App and related files have been moved to Trash.";
+
+/* Disk Detail Tab */
+"storageBreakdown" = "Storage Breakdown";
+"usageByCategory" = "Usage by Category";
+"available" = "Available";
+"used" = "Used";
+
+/* Overview Tab */
+"recentActivity" = "Recent Activity";
+"clickToConfigure" = "Click to configure";
+"ruleBasedDetection" = "Rule-based Detection";
+"configureWarningThresholds" = "Configure warning thresholds";
+"coreMLAnomalyDetection" = "Core ML Anomaly Detection";
+"onDeviceMachineLearning" = "On-device machine learning";
+"howItWorks" = "How it works:";
+"noExternalServices" = "No external services or internet required.";
+
+/* Insights Tab */
+"description" = "Description";
+"relatedProcesses" = "Related Processes";
+"suggestions" = "Suggestions";
+
+/* Security Tab */
+"securityChecks" = "Security Checks";
+"recommendations" = "Recommendations";
+"suspiciousItemsFound" = "Suspicious Items Found";
+"systemIntegrityProtection" = "System Integrity Protection";
+"protectsSystemFiles" = "Protects system files from modification";
+"gatekeeper" = "Gatekeeper";
+"blocksUnverifiedApps" = "Blocks unverified apps from running";
+"fileVault" = "FileVault";
+"encryptsStartupDisk" = "Encrypts your startup disk";
+"firewall" = "Firewall";
+"blocksUnwantedConnections" = "Blocks unwanted incoming connections";
+
+/* Startup Manager Tab */
+"filter" = "Filter:";
+"all" = "All";
+"userOnly" = "User Only";
+"systemOnly" = "System Only";
+
+/* Common */
+"items" = "items";
+"files" = "files";
+"on" = "On";
+"off" = "Off";
+"active" = "Active";
+"selectToView" = "Select to view details";
+
+/* Battery Health Tab */
+"health" = "Health";
+"rawCapacity" = "Raw Capacity";
+"cells" = "Cells";
+"power" = "Power";
+"detailedStatistics" = "Detailed Statistics";
+"serialNumber" = "Serial Number";
+"device" = "Device";
+"charger" = "Charger";
+"batteryTips" = "Battery Tips";
+"noBatteryDetected" = "No Battery Detected";
+"noBatteryInfo" = "This Mac doesn't have a battery or battery information is unavailable.";
+
+/* Large Files */
+"largeFilesTitle" = "Large Files";
+"noLargeFiles" = "No large files found (> 500 MB)";
+"moreFiles" = "more files";
+
+/* Port Details */
+"portDetails" = "Port Details";
+"noActivePorts" = "No Active Ports";
+"noServicesListening" = "No services are listening on any ports";
+"selectPortToView" = "Select a port to view details";
+
+/* GPU Detail Tab */
+"metal3Ready" = "Metal 3 Ready";
+"unifiedMemoryArchitecture" = "Unified Memory Architecture";
+"gpuSharesMemory" = "GPU shares memory with CPU on Apple Silicon. No dedicated VRAM - all system memory is available to both.";
+"gpuMemoryUsed" = "GPU Memory Used";
+"cores" = "cores";
+
+/* Memory Detail Tab */
+"systemHealth" = "system health";
+
+/* Processes Tab */
+"sort" = "Sort:";
+
+/* Common Labels */
+"total" = "Total";
+"download" = "Download";
+"upload" = "Upload";
+"interface" = "Interface";
+"localIP" = "Local IP";
+"connected" = "Connected";
+
+/* Fan Control Tab */
+"rpm" = "RPM";
+"advancedMode" = "Advanced Mode";
+"requiresSipDisabled" = "Requires SIP disabled & sudo";
+"advancedUsersOnly" = "⚠️ Advanced Users Only";
+"targetFanSpeed" = "Target Fan Speed";
+"rpmRange" = "RPM (1200-6000)";
+"output" = "Output:";
+"requirements" = "Requirements:";
+"manualModeOverride" = "Manual mode overrides automatic fan management";
+"targetSpeed" = "Target Speed";
+"systemTemperatures" = "System Temperatures";
+"fanSpeedHistory" = "Fan Speed History (60s)";
+
+/* Common Labels */
+"mbps" = "MB/s";
+"this may take a moment" = "This may take a moment";
+"diskIsClean" = "Disk is clean!";
+"noSignificantJunkFiles" = "No significant junk files found";
+"current" = "Current:";
+
+/* Overview Tab */
+
+/* Format Strings */
+"portsCount" = "%d ports";
+"andMoreItems" = "+ %d more";
+"canBeFreed" = "%@ can be freed";
+"successfullyFreed" = "Successfully freed %@";
+"freedWithErrors" = "Freed %@. %d items could not be deleted.";
+"deleteConfirm" = "Are you sure you want to delete %@ of data? This cannot be undone.";
+"andMoreFiles" = "... and %d more files";
+"largeFilesCount" = "Large Files (%d)";
+"terminateProcess" = "This will terminate the process %@ (PID: %d)";
+"scanAgain" = "Scan Again";
+
+/* Time Intervals */
+"seconds1" = "1s";
+"seconds2" = "2s";
+"seconds5" = "5s";
+"seconds10" = "10s";
+
+/* Static UI */
+"auto" = "(Auto)";
+"preview" = "Preview / Xem trước:";
+"vietnamese" = "🇻🇳 Vietnamese";
+"english" = "🇺🇸 English";
+"bullet" = "•";
+
+/* Additional dynamic strings */
+"fanAutoManaged" = "Fan speed is automatically managed by macOS based on thermal conditions.";
+"threshold" = "/ Threshold:";
+
+/* Security & Startup */
+"enabled" = "Enabled";
+"disabled" = "Disabled";
+"notInstalled" = "Not Installed";
+"installed" = "Installed";
+
+/* More files */
+"andMoreFilesCategory" = "... and %d more files";
+
+/* Additional static strings */
+"timeline" = "Timeline";
+"fanSpeed" = "Fan Speed";
+"used" = "Used";
+"tryMacsFanControl" = "For more control, try Macs Fan Control:";
+"sipWarning" = "This feature requires System Integrity Protection (SIP) to be disabled and the 'smc' tool installed. Improper use may cause hardware damage.";
+"appleRestricted" = "On M3 Pro/Max with macOS Sequoia, Apple has restricted manual fan control at firmware level. Third-party apps can only adjust fan speed after the system activates them.";
+"macosManagesFans" = "macOS automatically manages fans based on thermals. Fans activate when CPU temp exceeds ~70°C.";
+
+/* Final batch of static strings */
+"noEvents" = "No events";
+"insightsWillBeRecorded" = "Insights will be recorded here";
+"filter" = "Filter:";
+"all" = "All";
+"noStartupItems" = "No startup items found";
+"program" = "Program";
+"plistLocation" = "Plist Location";
+"removeLaunchAgentWarning" = "This will remove the launch agent from your startup items.";
+"selectStartupItem" = "Select a startup item";
+"itemsCount" = "%d items";
+"coresHighFreq" = "%d cores @ high frequency";
+"coresLowPower" = "%d cores @ low power";
+
+/* Startup Manager additional */
+"viewDetailsManage" = "View details and manage launch agents that run at login.";
+"autoStart" = "• Auto-start";
+
+/* Battery Health additional */
+"ofCycles" = "of %d cycles";
+
+/* Format strings for dynamic values */
+"percentValue" = "%d%%";
+"versionFormat" = "v%@";
+"portFormat" = ":%d";
+"addressPortFormat" = "%@:%d";
+"pidFormat" = "PID: %d";
+"rpmFormat" = "%d RPM";
+"tempFormat" = "%d°C";
+"coreFormat" = "Core %d";
+"thresholdFormat" = "/ Threshold: %@%@";
+
+/* Final batch - remaining static strings */
+"serialNumber" = "Serial Number";
+"device" = "Device";
+"charger" = "Charger";
+"noBatteryDetected" = "No Battery Detected";
+"of" = "of %@";
+"available" = "available";
+"active" = "Active";
+"gpuSharesMemoryDesc" = "GPU shares memory with CPU on Apple Silicon. No dedicated VRAM - all system memory is available to both.";
+"ofHundred" = "/ 100";
+"suspiciousItemsFound" = "Suspicious Items Found";
+"itemsCountShort" = "%d items";
+"appMovedToTrash" = "App and related files have been moved to Trash.";
+"errorsOccurred" = "Some errors occurred:";
+"versionPrefix" = "Version %@";
+"scanningDots" = "Scanning...";
+"filesCount" = "%d files";
+"noRelatedFiles" = "No related files found";
+"willBeMovedToTrash" = "The app and %d related files will be moved to Trash.";
+"currentFormat" = "Current: %@%@";
+"thresholdLabel" = "Threshold: %@%@";
+"noMatchingCommands" = "No matching commands";
+"tryCommands" = "Try: 'show cpu', 'what's using memory', 'clean disk'";
+"recent" = "Recent";
+"coresUnit" = "%d cores";
+
+/* Final 16 strings - dynamic values */
+"securitySettingsGood" = "Your Mac's security settings are %@. All major protections are enabled.";
+"securitySettingsNeedsWork" = "Your Mac's security settings are %@. Enable more protections for better security.";
+"cellCountFormat" = "%dS";
+"valueWithUnit" = "%d%@";
+
+/* Pure number format strings */
+"numberOnly" = "%d";
+"decimalValue" = "%.0f%@";
+
+/* CoreML Info Sheet */
+"mlStatus" = "Status";
+"mlDependencies" = "Dependencies";
+"mlPrivacy" = "Privacy";
+"mlStatusLearning" = "Learning";
+"mlNoneBuiltIn" = "None (built-in)";
+"ml100OnDevice" = "100% on-device";
+"mlCollectsBaseline" = "Collects baseline metrics from your normal usage";
+"mlCalculatesThresholds" = "Calculates statistical thresholds (mean ± 2σ)";
+"mlDetectsAnomalies" = "Detects anomalies when metrics deviate significantly";
+"mlLearnssContinuously" = "Learns continuously as you use your Mac";
+
+/* Battery Health Tab - Detailed Stats */
+"batTemperature" = "Temperature";
+"batVoltage" = "Voltage";
+"batPowerDraw" = "Power Draw";
+"batAmperage" = "Amperage";
+"batAdapter" = "Adapter";
+"batFull" = "Full";
+"batOnBattery" = "On Battery";
+"batExcellent" = "Excellent condition";
+"batGoodCondition" = "Good condition";
+"batFairCondition" = "Fair condition";
+"batConsiderReplacement" = "Consider replacement";
+"batNone" = "None";
+
+/* Battery Tips */
+"tipKeepTemp" = "Keep your Mac between 10°C and 35°C for optimal battery life";
+"tipKeepCharge" = "Keep battery between 20-80% for daily use";
+"tipRemoveCharger" = "Remove charger at 100% to reduce heat";
+"tipAppleRates" = "Apple rates batteries for 1000 cycles before 80% capacity";
+
+/* Widget Labels */
+"widgetUsageHistory" = "Usage history";
+"widgetTopProcesses" = "Top processes";
+"widgetActivity" = "Activity";
+"selectWidgets" = "Select which widgets to show in menu bar";
+
+/* xInsight Widget */
+"openDashboard" = "Open Dashboard";
+"optimizeNow" = "Optimize Now";
+"quickActions" = "Quick Actions";
+"excellent" = "Excellent";
+"good" = "Good";
+"fair" = "Fair";
+"poor" = "Poor";
+
+/* AI Dashboard */
+"aiDashboard" = "AI Dashboard";
+"aiDashboardDesc" = "Smart insights powered by on-device AI";
+"aiSummary" = "AI Summary";
+"smartSuggestions" = "Smart Suggestions";
+"predictedIssues" = "Predicted Issues";
+"learningProgress" = "Learning Progress";
+"modelAccuracy" = "Model Accuracy";
+"speakInsights" = "Speak Insights";
+"stopSpeaking" = "Stop Speaking";
+"voiceSettings" = "Voice Settings";
+"voiceSettingsDesc" = "Configure text-to-speech output";
+"selectVoice" = "Select Voice";
+"speechRate" = "Speech Rate";
+"slower" = "Slower";
+"faster" = "Faster";
+"testVoice" = "Test Voice";
+"testEnglish" = "Test English";
+"testVietnamese" = "Test Vietnamese";
+"verySlow" = "Very Slow";
+"slow" = "Slow";
+"fast" = "Fast";
+"veryFast" = "Very Fast";
+"learning" = "Learning";
+"ready" = "Ready";
+"privacy" = "Privacy";
+"allOnDevice" = "100% On-Device";
+"predictions" = "predictions";
+"noPredictedIssues" = "No predicted issues - looking good!";
+"noSuggestionsNeeded" = "No suggestions needed right now";
+"speakSuggestion" = "Speak Suggestion";
+"apply" = "Apply";
+"probability" = "Probability";
+"analyzingSystem" = "Analyzing system...";
+
+/* Hardware Info Tab */
+"hwEssentialInfo" = "Essential Information";
+"hwCpuInfo" = "CPU Technical Specifications";
+"hwMemoryInfo" = "Memory";
+"hwGraphicsInfo" = "Graphics";
+"hwNeuralEngine" = "Neural Engine";
+"hwSystemInfo" = "System Information";
+"hwStorageInfo" = "Storage";
+"hwModelName" = "Model Name";
+"hwModelId" = "Model ID";
+"hwArchitecture" = "Architecture";
+"hwProcessNode" = "Process Node";
+"hwPerfCores" = "Performance Cores";
+"hwEffCores" = "Efficiency Cores";
+"hwTotalCores" = "Total Cores";
+"hwTotalThreads" = "Total Threads";
+"hwMaxFrequency" = "Max Frequency";
+"hwL1Cache" = "L1 Cache";
+"hwL2Cache" = "L2 Cache";
+"hwCapacity" = "Capacity";
+"hwMemoryType" = "Type";
+"hwMemorySpeed" = "Speed";
+"hwMemoryArch" = "Architecture";
+"hwBandwidth" = "Bandwidth";
+"hwGpuName" = "GPU Name";
+"hwGpuCores" = "GPU Cores";
+"hwGpuMemory" = "GPU Memory";
+"hwRayTracing" = "Ray Tracing";
+"hwNeuralCores" = "Neural Cores";
+"hwNeuralPerf" = "Performance";
+"hwMlAccel" = "ML Accelerator";
+"hwCoreML" = "Core ML";
+"hwMacOS" = "macOS";
+"hwBuild" = "Build";
+"hwKernel" = "Kernel";
+"hwUptime" = "Uptime";
+"hwSerial" = "Serial";
+"hwStorageType" = "Type";
+"hwStorageUsed" = "Used";
+"hwStorageAvailable" = "Available";
+"hwYes" = "Yes";
+"hwNo" = "No";
+"hwOptimized" = "Optimized";
+"hwSystemInformation" = "System Information";
+
+/* Trends Tab */
+"trends" = "Trends";
+"trendsAnalysis" = "Trends Analysis";
+"totalSnapshots" = "Total Snapshots";
+"usageOverTime" = "Usage Over Time";
+"noHistoricalData" = "No Historical Data";
+"dataWillAppear" = "Data will appear after a few minutes of monitoring";
+"dailyPatterns" = "Daily Patterns";
+"peakHours" = "Peak Hours";
+"notEnoughData" = "Not enough data yet";
+"weeklyPatterns" = "Weekly Patterns";
+"detectedAnomalies" = "Detected Anomalies";
+"memoryLeakSuspects" = "Memory Leak Suspects";
+
+/* Health Score */
+"healthScore" = "Health Score";
+"healthScoreDesc" = "Overall system health rating (0-100)";
+"excellent" = "Excellent";
+"good" = "Good";
+"fair" = "Fair";
+"poor" = "Poor";
+"critical" = "Critical";
+"componentScores" = "Component Scores";
+
+/* Process Timeline */
+"processTimeline" = "Process Timeline";
+"processTimelineDesc" = "Track when processes start and stop";
+"processStarted" = "Started";
+"processStopped" = "Stopped";
+"todayOnly" = "Today only";
+"topByDuration" = "Top by Duration";
+"noProcessEvents" = "No process events recorded";
+"ranFor" = "Ran for";
+
+/* Custom Alerts */
+"customAlerts" = "Custom Alerts";
+"customAlertsDesc" = "Set thresholds to receive notifications";
+"addAlert" = "Add Alert";
+"editAlert" = "Edit Alert";
+"alertName" = "Alert Name";
+"metric" = "Metric";
+"condition" = "Condition";
+"above" = "Above";
+"below" = "Below";
+"equals" = "Equals";
+"recentTriggers" = "Recent Triggers";
+"noCustomAlerts" = "No custom alerts";
+"alertEnabled" = "Alert enabled";
+"alertDisabled" = "Alert disabled";
+
+/* Benchmarks */
+"benchmark" = "Benchmark";
+"benchmarkDesc" = "Test system performance";
+"runBenchmarks" = "Run Benchmarks";
+"cpuSingleCore" = "CPU Single-Core";
+"cpuMultiCore" = "CPU Multi-Core";
+"memoryBandwidth" = "Memory Bandwidth";
+"diskIO" = "Disk I/O";
+"graphics" = "Graphics";
+"totalScore" = "Total Score";
+"benchmarkHistory" = "Benchmark History";
+"baselineComparison" = "Baseline Comparison";
+"runningBenchmark" = "Running benchmark...";
+
+/* Comparison Mode */
+"comparison" = "Comparison";
+"comparisonDesc" = "Compare system metrics between two time periods";
+"period1" = "Period 1";
+"period2" = "Period 2";
+"baseline" = "Baseline";
+"comparePeriods" = "Compare Periods";
+"analysisSummary" = "Analysis Summary";
+"noComparisonData" = "Select two time periods and click Compare";
+"percentChange" = "% Change";
+
+/* Theme & Appearance */
+"appearance" = "Appearance";
+"lightMode" = "Light";
+"darkMode" = "Dark";
+"systemMode" = "System";
+"accentColor" = "Accent Color";
+"useDynamicColors" = "Use dynamic colors";
+
+/* iCloud Sync */
+"iCloudSync" = "iCloud Sync";
+"syncEnabled" = "Sync enabled";
+"syncDisabled" = "Sync disabled";
+"lastSynced" = "Last synced";
+"syncing" = "Syncing...";
+"syncNow" = "Sync Now";
+"syncSettings" = "Sync settings across devices";
+
+/* Shortcuts Integration */
+"shortcuts" = "Shortcuts";
+"shortcutsDesc" = "Use xInsight with macOS Shortcuts";
+"availableShortcuts" = "Available shortcuts";
+"getHealthScore" = "Get Health Score";
+"getCPUUsage" = "Get CPU Usage";
+"getTemperature" = "Get Temperature";
+
+/* Scheduled Reports */
+"scheduledReports" = "Scheduled Reports";
+"dailyReport" = "Daily Report";
+"weeklyReport" = "Weekly Report";
+"reportGenerated" = "Report generated";
+"reportTime" = "Report Time";
+"enableReports" = "Enable Reports";
+"lastReport" = "Last Report";
+
+/* Scheduled Exports */
+"scheduledExports" = "Scheduled Exports";
+"exportFormat" = "Export Format";
+"exportFrequency" = "Export Frequency";
+"daily" = "Daily";
+"weekly" = "Weekly";
+"monthly" = "Monthly";
+"exportPath" = "Export Path";
+"exportHistory" = "Export History";
+"lastExport" = "Last Export";
+
+/* AppleScript */
+"appleScript" = "AppleScript";
+"automation" = "Automation";
+"exampleScripts" = "Example Scripts";
+"executeScript" = "Execute Script";
+
+/* Network Traffic Monitor */
+"networkMonitor" = "Network Monitor";
+"activeApps" = "Active Apps";
+"bytesIn" = "Bytes In";
+"bytesOut" = "Bytes Out";
+"connectionCount" = "Connections";
+
+/* Fan Control Installer */
+"fanControlSetup" = "Fan Control Setup";
+"fanControlDesc" = "Configure hardware fan control for xInsight";
+"systemStatus" = "System Status";
+"sipStatus" = "System Integrity Protection";
+"smcTool" = "SMC Tool";
+"fanControlHelper" = "Fan Control Helper";
+"installSMCTool" = "Install SMC Tool";
+"installHelper" = "Install Helper";
+"installViaHomebrew" = "Install via Homebrew";
+"alternativeApps" = "Alternative: Third-Party Apps";
+"sipWarningFan" = "Direct fan control is limited. Use third-party apps for full control.";
+"refreshStatus" = "Refresh Status";
+
+/* AI Tab - Additional */
+"smartCleanup" = "Smart Cleanup";
+"usagePatterns" = "Usage Patterns";
+"loading" = "Loading...";
+"askAI" = "Ask AI";
+"askPlaceholder" = "Ask anything... e.g. 'Why is my Mac slow?'";
+"ask" = "Ask";
+"smartProcessKiller" = "Smart Process Killer";
+"recommendations" = "recommendations";
+"noHeavyProcesses" = "No resource-heavy processes to kill";
+"kill" = "Kill";
+"noCleanupRecs" = "No cleanup recommendations";
+"openCleanupTab" = "Open Cleanup Tab";
+"gatheringData" = "Gathering data...";
+"systemHealthScore" = "System Health Score";
+"peakPerformance" = "Your Mac is running at peak performance";
+"healthyMinor" = "System is healthy with minor resource usage";
+"resourcesStrained" = "Some resources are strained. Consider closing apps.";
+"highUsage" = "High resource usage detected. Action recommended.";
+"overloaded" = "System is overloaded. Immediate action needed.";
+"high" = "High";
+"medium" = "Medium";
+"low" = "Low";

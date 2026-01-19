@@ -1,0 +1,834 @@
+/* App */
+"appName" = "xInsight";
+"appDescription" = "Phân tích hệ thống AI cho macOS";
+
+/* Menu Bar */
+"menuBarOpen" = "Mở Dashboard";
+"menuBarQuit" = "Thoát";
+"menuBarRefresh" = "Làm mới";
+
+/* Dashboard Tabs */
+"overview" = "Tổng quan";
+"processes" = "Tiến trình";
+"insights" = "Phân tích";
+"timeline" = "Lịch sử";
+"ports" = "Cổng mạng";
+"cleanup" = "Dọn dẹp";
+"settings" = "Cài đặt";
+"cpuDetail" = "Chi tiết CPU";
+"gpuDetail" = "Chi tiết GPU";
+"memoryDetail" = "Chi tiết Bộ nhớ";
+"diskDetail" = "Chi tiết Ổ đĩa";
+"networkTraffic" = "Lưu lượng Mạng";
+"batteryHealth" = "Sức khỏe Pin";
+"uninstaller" = "Gỡ cài đặt";
+"startupManager" = "Quản lý Khởi động";
+"security" = "Bảo mật";
+
+/* System Status */
+"systemOverview" = "Tổng quan hệ thống";
+"systemNormal" = "Hệ thống hoạt động bình thường";
+"systemWarning" = "cảnh báo";
+"systemCritical" = "vấn đề nghiêm trọng";
+"systemNormalDesc" = "Mac của bạn đang hoạt động ổn định";
+
+/* Metrics */
+"cpu" = "CPU";
+"memory" = "Bộ nhớ";
+"gpu" = "GPU";
+"diskIO" = "Ổ đĩa";
+"temperature" = "Nhiệt độ";
+"network" = "Mạng";
+"fanSpeed" = "Quạt";
+
+/* CPU Detail */
+"cpuUsage" = "Sử dụng CPU";
+"performanceCores" = "Lõi hiệu năng";
+"efficiencyCores" = "Lõi tiết kiệm";
+"allCores" = "Tất cả lõi";
+"coreUsage" = "Sử dụng lõi";
+"systemLoad" = "Tải hệ thống";
+"userLoad" = "Tải người dùng";
+"idleTime" = "Thời gian nghỉ";
+
+/* GPU Detail */
+"gpuUsage" = "Sử dụng GPU";
+"gpuCores" = "Lõi GPU";
+"gpuMemory" = "Bộ nhớ GPU";
+"gpuTemperature" = "Nhiệt độ GPU";
+"metalPerformance" = "Hiệu năng Metal";
+
+/* Memory Detail */
+"memoryUsage" = "Sử dụng bộ nhớ";
+"memoryUsed" = "Đã dùng";
+"memoryFree" = "Còn trống";
+"memoryWired" = "Cố định";
+"memoryCompressed" = "Nén";
+"memorySwap" = "Swap";
+"memoryPressure" = "Áp lực bộ nhớ";
+
+/* Status */
+"avgCPU" = "CPU TB";
+"avgMemory" = "RAM TB";
+"avgGPU" = "GPU TB";
+"last30s" = "30 giây qua";
+"samples" = "Mẫu";
+"collected" = "Đã thu thập";
+"activeInsights" = "Phân tích đang hoạt động";
+"noIssues" = "Không có vấn đề";
+"selectInsightDetail" = "Chọn một phân tích để xem chi tiết";
+
+/* Actions */
+"refresh" = "Làm mới";
+"close" = "Đóng";
+"configure" = "Cấu hình";
+"reset" = "Đặt lại";
+"done" = "Xong";
+"scan" = "Quét";
+"clean" = "Dọn dẹp";
+"stop" = "Dừng";
+"start" = "Bắt đầu";
+
+/* Fan Control */
+"fanControl" = "Điều khiển quạt";
+"fanAuto" = "Tự động";
+"fanManual" = "Thủ công";
+"fanSpeed_rpm" = "Vòng/phút";
+"noFan" = "Không có quạt (Tản nhiệt thụ động)";
+
+/* Hardware */
+"chip" = "Chip";
+"cores" = "Lõi";
+"type" = "Loại";
+"total" = "Tổng";
+"hardware" = "Phần cứng";
+"details" = "Chi tiết";
+"history" = "Lịch sử";
+"trend" = "Xu hướng";
+"rising" = "Tăng";
+"falling" = "Giảm";
+"stable" = "Ổn định";
+"current" = "Hiện tại";
+"average" = "Trung bình";
+
+/* Sidebar Sections */
+"monitor" = "Giám sát";
+"analysis" = "Phân tích";
+"tools" = "Công cụ";
+
+/* Settings Tabs */
+"language" = "Ngôn ngữ";
+"notifications" = "Thông báo";
+"thresholds" = "Ngưỡng cảnh báo";
+"about" = "Giới thiệu";
+
+/* Settings General */
+"launchAtLogin" = "Khởi động cùng hệ thống";
+"showInDock" = "Hiển thị trong Dock";
+"refreshInterval" = "Tần suất cập nhật";
+"notifyWhen" = "Thông báo khi:";
+"warningThresholds" = "Ngưỡng cảnh báo";
+"resetToDefaults" = "Đặt về mặc định";
+"general" = "Chung";
+
+/* Time Intervals */
+"oneSecond" = "1 giây";
+"twoSeconds" = "2 giây";
+"fiveSeconds" = "5 giây";
+"tenSeconds" = "10 giây";
+"intervalDescription" = "Tần suất cập nhật ngắn hơn cho dữ liệu chính xác hơn nhưng tốn nhiều tài nguyên hơn.";
+
+/* Common Actions */
+"download" = "Tải xuống";
+"uninstall" = "Gỡ cài đặt";
+"remove" = "Xóa";
+"revealInFinder" = "Hiển thị trong Finder";
+"checkForUpdates" = "Kiểm tra cập nhật";
+"rescan" = "Quét lại";
+"setSpeed" = "Đặt tốc độ";
+"openSecuritySettings" = "Mở cài đặt bảo mật";
+"openInstalled" = "Mở ứng dụng";
+"stopPort" = "Dừng cổng";
+"openPlist" = "Mở Plist";
+
+/* Status Messages */
+"upToDate" = "Đã cập nhật phiên bản mới nhất";
+"updateAvailable" = "Có bản cập nhật mới!";
+"checkingUpdates" = "Đang kiểm tra cập nhật...";
+"currentVersion" = "Phiên bản hiện tại";
+"latestVersion" = "Phiên bản mới nhất";
+"version" = "Phiên bản";
+
+/* Thermal */
+"thermal" = "Nhiệt độ";
+"nominal" = "Bình thường";
+"normal" = "Bình thường";
+
+/* Notification Settings */
+"enableNotifications" = "Bật thông báo";
+"cpuExceedsThreshold" = "Sử dụng CPU vượt ngưỡng";
+"memoryPressureHigh" = "Áp lực bộ nhớ cao";
+"thermalThrottling" = "Hệ thống đang giảm tốc do nhiệt";
+"portStartsStops" = "Cổng bắt đầu/dừng";
+"notificationSound" = "Âm thanh thông báo";
+"default" = "Mặc định";
+"subtle" = "Nhẹ";
+"none" = "Không";
+
+/* Fan Control Specific */
+"fanControlWarning" = "⚠️ Điều khiển quạt thủ công yêu cầu quyền nâng cao và không khả dụng trong chế độ sandbox.";
+"fanAutoManaged" = "Tốc độ quạt được macOS tự động quản lý dựa trên điều kiện nhiệt.";
+"sipDisabled" = "SIP phải được tắt (chạy 'csrutil disable' trong Recovery Mode)";
+"installSmcTool" = "Cài đặt smc tool: github.com/hholtmann/smcFanControl/tree/master/smc-command";
+"sudoPrompt" = "Script sẽ yêu cầu mật khẩu sudo";
+"resetToAutomatic" = "Đặt lại về Tự động";
+"advancedMode" = "Chế độ nâng cao";
+"requiresSIPSudo" = "Yêu cầu tắt SIP & sudo";
+"downloadMacsFanControl" = "Tải Macs Fan Control";
+"forMoreControl" = "Để điều khiển quạt tốt hơn:";
+"currentRPM" = "RPM hiện tại";
+"cpuTemp" = "Nhiệt độ CPU";
+"status" = "Trạng thái";
+"idle" = "Nghỉ";
+
+/* Disk & Cleanup */
+"largeFiles" = "Tệp lớn";
+"scanning" = "Đang quét...";
+"filesFound" = "tệp tìm thấy";
+"successfullyFreed" = "Đã giải phóng thành công";
+"confirmDelete" = "Bạn có chắc chắn muốn xóa";
+"cannotBeUndone" = "Hành động này không thể hoàn tác.";
+"ofData" = "dữ liệu?";
+"thisMayTakeAMoment" = "Có thể mất một lúc...";
+
+/* Cleanup Categories */
+"systemCaches" = "Cache hệ thống";
+"applicationLogs" = "Log ứng dụng";
+"trash" = "Thùng rác";
+"downloads30Days" = "Tải về (30+ ngày)";
+"safariCache" = "Cache Safari";
+"chromeCache" = "Cache Chrome";
+"firefoxCache" = "Cache Firefox";
+"edgeCache" = "Cache Edge";
+"braveCache" = "Cache Brave";
+"mailDownloads" = "Tải về từ Mail";
+"mailAttachments" = "Đính kèm Mail";
+"xcodeDerivedData" = "Xcode Derived Data";
+"xcodeArchives" = "Xcode Archives";
+"iosSimulators" = "iOS Simulator";
+"npmCache" = "Cache npm";
+"yarnCache" = "Cache Yarn";
+"cocoapodsCache" = "Cache CocoaPods";
+"gradleCache" = "Cache Gradle";
+"dockerImages" = "Docker Images";
+"homebrewCache" = "Cache Homebrew";
+"iosBackups" = "Sao lưu iOS";
+"screenshotCache" = "Cache ảnh chụp màn hình";
+"oldMacosUpdates" = "Bản cập nhật macOS cũ";
+"spotlightIndex" = "Index Spotlight";
+"quickCleanup" = "Dọn nhanh";
+"fullScan" = "Quét đầy đủ";
+"smartCleanup" = "Dọn thông minh";
+"safeToDelete" = "An toàn để xóa";
+"largeFilesScanner" = "Quét tệp lớn";
+"findLargeFiles" = "Tìm tệp lớn hơn 100 MB";
+
+/* Processes */
+"killProcess" = "Dừng tiến trình";
+"forceQuit" = "Buộc thoát";
+"processName" = "Tên tiến trình";
+"pid" = "PID";
+"user" = "Người dùng";
+"sortBy" = "Sắp xếp theo";
+
+/* Battery */
+"chargeLevel" = "Mức sạc";
+"charging" = "Đang sạc";
+"discharging" = "Đang xả";
+"notCharging" = "Không sạc";
+"cycleCount" = "Số chu kỳ";
+"condition" = "Tình trạng";
+"maximumCapacity" = "Dung lượng tối đa";
+"timeRemaining" = "Thời gian còn lại";
+"powerSource" = "Nguồn điện";
+"battery" = "Pin";
+"acPower" = "Nguồn AC";
+
+/* Security */
+"sipEnabled" = "SIP Đã bật";
+"sipDisabledStatus" = "SIP Đã tắt";
+"firewallEnabled" = "Tường lửa Đã bật";
+"firewallDisabled" = "Tường lửa Đã tắt";
+"gatekeeperEnabled" = "Gatekeeper Đã bật";
+"filevaultEnabled" = "FileVault Đã bật";
+"filevaultDisabled" = "FileVault Đã tắt";
+
+/* Startup Manager */
+"loginItems" = "Mục đăng nhập";
+"launchAgents" = "Launch Agents";
+"launchDaemons" = "Launch Daemons";
+"enabled" = "Đã bật";
+"disabled" = "Đã tắt";
+
+/* More */
+"moreInfo" = "+ %d thêm";
+"preview" = "Xem trước:";
+"auto" = "(Tự động)";
+"copyright" = "© 2024 xDev.asia";
+"mitLicense" = "Giấy phép MIT";
+"appleSilicon" = "Apple Silicon";
+"appleSiliconMac" = "Mac Apple Silicon";
+"thermalManagement" = "quản lý nhiệt";
+"unifiedLPDDR5" = "Bộ nhớ LPDDR5 hợp nhất";
+"appleSiliconIntegrated" = "GPU tích hợp Apple Silicon";
+
+/* Network Traffic Tab */
+"networkAndDisk" = "Mạng & Ổ đĩa";
+"realTimeIO" = "Thống kê I/O thời gian thực";
+"read" = "Đọc";
+"write" = "Ghi";
+"activity60s" = "Hoạt động (60 giây)";
+"activeConnections" = "Kết nối đang hoạt động";
+
+/* Uninstaller Tab */
+"installedApps" = "Ứng dụng đã cài";
+"appSize" = "Kích thước ứng dụng";
+"relatedFiles" = "Tệp liên quan";
+"totalToRemove" = "Tổng cần xóa:";
+"selectAnApp" = "Chọn ứng dụng để gỡ cài đặt";
+"findAllRelatedFiles" = "xInsight sẽ tìm tất cả tệp liên quan bao gồm cache, cài đặt và tệp hỗ trợ.";
+"movedToTrash" = "Ứng dụng và các tệp liên quan đã được chuyển vào Thùng rác.";
+
+/* Disk Detail Tab */
+"storageBreakdown" = "Phân tích dung lượng";
+"usageByCategory" = "Sử dụng theo danh mục";
+"available" = "Còn trống";
+"used" = "Đã dùng";
+
+/* Overview Tab */
+"recentActivity" = "Hoạt động gần đây";
+"clickToConfigure" = "Nhấn để cấu hình";
+"ruleBasedDetection" = "Phát hiện dựa trên quy tắc";
+"configureWarningThresholds" = "Cấu hình ngưỡng cảnh báo";
+"coreMLAnomalyDetection" = "Phát hiện bất thường Core ML";
+"onDeviceMachineLearning" = "Học máy trên thiết bị";
+"howItWorks" = "Cách hoạt động:";
+"noExternalServices" = "Không cần dịch vụ bên ngoài hoặc internet.";
+
+/* Insights Tab */
+"description" = "Mô tả";
+"relatedProcesses" = "Tiến trình liên quan";
+"suggestions" = "Đề xuất";
+
+/* Security Tab */
+"securityChecks" = "Kiểm tra bảo mật";
+"recommendations" = "Khuyến nghị";
+"suspiciousItemsFound" = "Tìm thấy mục đáng ngờ";
+"systemIntegrityProtection" = "Bảo vệ toàn vẹn hệ thống";
+"protectsSystemFiles" = "Bảo vệ tệp hệ thống khỏi sửa đổi";
+"gatekeeper" = "Gatekeeper";
+"blocksUnverifiedApps" = "Chặn ứng dụng chưa xác minh";
+"fileVault" = "FileVault";
+"encryptsStartupDisk" = "Mã hóa ổ đĩa khởi động";
+"firewall" = "Tường lửa";
+"blocksUnwantedConnections" = "Chặn kết nối đến không mong muốn";
+
+/* Startup Manager Tab */
+"filter" = "Lọc:";
+"all" = "Tất cả";
+"userOnly" = "Chỉ người dùng";
+"systemOnly" = "Chỉ hệ thống";
+
+/* Common */
+"items" = "mục";
+"files" = "tệp";
+"on" = "Bật";
+"off" = "Tắt";
+"active" = "Đang hoạt động";
+"selectToView" = "Chọn để xem chi tiết";
+
+/* Battery Health Tab */
+"health" = "Sức khỏe";
+"rawCapacity" = "Dung lượng thô";
+"cells" = "Pin";
+"power" = "Nguồn";
+"detailedStatistics" = "Thống kê chi tiết";
+"serialNumber" = "Số sê-ri";
+"device" = "Thiết bị";
+"charger" = "Bộ sạc";
+"batteryTips" = "Mẹo về pin";
+"noBatteryDetected" = "Không phát hiện pin";
+"noBatteryInfo" = "Mac này không có pin hoặc thông tin pin không khả dụng.";
+
+/* Large Files */
+"largeFilesTitle" = "Tệp lớn";
+"noLargeFiles" = "Không tìm thấy tệp lớn (> 500 MB)";
+"moreFiles" = "tệp khác";
+
+/* Port Details */
+"portDetails" = "Chi tiết cổng";
+"noActivePorts" = "Không có cổng đang hoạt động";
+"noServicesListening" = "Không có dịch vụ nào đang lắng nghe";
+"selectPortToView" = "Chọn cổng để xem chi tiết";
+
+/* GPU Detail Tab */
+"metal3Ready" = "Hỗ trợ Metal 3";
+"unifiedMemoryArchitecture" = "Kiến trúc bộ nhớ hợp nhất";
+"gpuSharesMemory" = "GPU chia sẻ bộ nhớ với CPU trên Apple Silicon. Không có VRAM riêng - toàn bộ bộ nhớ hệ thống đều có thể sử dụng cho cả hai.";
+"gpuMemoryUsed" = "Bộ nhớ GPU đã dùng";
+"cores" = "lõi";
+
+/* Memory Detail Tab */
+"systemHealth" = "sức khỏe hệ thống";
+
+/* Processes Tab */
+"sort" = "Sắp xếp:";
+
+/* Common Labels */
+"total" = "Tổng";
+"download" = "Tải xuống";
+"upload" = "Tải lên";
+"interface" = "Giao diện";
+"localIP" = "IP cục bộ";
+"connected" = "Đã kết nối";
+
+/* Fan Control Tab */
+"rpm" = "RPM";
+"advancedMode" = "Chế độ nâng cao";
+"requiresSipDisabled" = "Yêu cầu tắt SIP & sudo";
+"advancedUsersOnly" = "⚠️ Chỉ dành cho người dùng nâng cao";
+"targetFanSpeed" = "Tốc độ quạt mục tiêu";
+"rpmRange" = "RPM (1200-6000)";
+"output" = "Đầu ra:";
+"requirements" = "Yêu cầu:";
+"manualModeOverride" = "Chế độ thủ công ghi đè quản lý quạt tự động";
+"targetSpeed" = "Tốc độ mục tiêu";
+"systemTemperatures" = "Nhiệt độ hệ thống";
+"fanSpeedHistory" = "Lịch sử tốc độ quạt (60 giây)";
+
+/* Common Labels */
+"mbps" = "MB/s";
+"thisMayTakeAMoment" = "Có thể mất một lúc";
+"diskIsClean" = "Đĩa đã sạch!";
+"noSignificantJunkFiles" = "Không tìm thấy tệp rác đáng kể";
+"current" = "Hiện tại:";
+
+/* Overview Tab */
+
+/* Format Strings */
+"portsCount" = "%d cổng";
+"andMoreItems" = "+ %d thêm";
+"canBeFreed" = "%@ có thể giải phóng";
+"successfullyFreed" = "Đã giải phóng thành công %@";
+"freedWithErrors" = "Đã giải phóng %@. %d mục không thể xóa.";
+"deleteConfirm" = "Bạn có chắc muốn xóa %@ dữ liệu không? Hành động này không thể hoàn tác.";
+"andMoreFiles" = "... và %d tệp khác";
+"largeFilesCount" = "Tệp lớn (%d)";
+"terminateProcess" = "Thao tác này sẽ kết thúc tiến trình %@ (PID: %d)";
+"scanAgain" = "Quét lại";
+
+/* Time Intervals */
+"seconds1" = "1 giây";
+"seconds2" = "2 giây";
+"seconds5" = "5 giây";
+"seconds10" = "10 giây";
+
+/* Static UI */
+"auto" = "(Tự động)";
+"preview" = "Xem trước / Preview:";
+"vietnamese" = "🇻🇳 Tiếng Việt";
+"english" = "🇺🇸 English";
+"bullet" = "•";
+
+/* Additional dynamic strings */
+"fanAutoManaged" = "Tốc độ quạt được macOS quản lý tự động dựa trên nhiệt độ.";
+"threshold" = "/ Ngưỡng:";
+
+/* Security & Startup */
+"enabled" = "Đã bật";
+"disabled" = "Đã tắt";
+"notInstalled" = "Chưa cài đặt";
+"installed" = "Đã cài đặt";
+
+/* More files */
+"andMoreFilesCategory" = "... và %d tệp khác";
+
+/* Additional static strings */
+"timeline" = "Dòng thời gian";
+"fanSpeed" = "Tốc độ quạt";
+"used" = "Đã dùng";
+"tryMacsFanControl" = "Để kiểm soát tốt hơn, thử Macs Fan Control:";
+"sipWarning" = "Tính năng này yêu cầu tắt System Integrity Protection (SIP) và cài đặt công cụ 'smc'. Sử dụng không đúng có thể gây hư hỏng phần cứng.";
+"appleRestricted" = "Trên M3 Pro/Max với macOS Sequoia, Apple đã hạn chế điều khiển quạt thủ công ở cấp firmware. Ứng dụng bên thứ ba chỉ có thể điều chỉnh tốc độ quạt sau khi hệ thống kích hoạt chúng.";
+"macosManagesFans" = "macOS tự động quản lý quạt dựa trên nhiệt độ. Quạt hoạt động khi nhiệt độ CPU vượt quá ~70°C.";
+
+/* Final batch of static strings */
+"noEvents" = "Không có sự kiện nào";
+"insightsWillBeRecorded" = "Các insight sẽ được ghi lại ở đây";
+"filter" = "Lọc:";
+"all" = "Tất cả";
+"noStartupItems" = "Không tìm thấy mục khởi động";
+"program" = "Chương trình";
+"plistLocation" = "Vị trí Plist";
+"removeLaunchAgentWarning" = "Thao tác này sẽ xóa launch agent khỏi mục khởi động của bạn.";
+"selectStartupItem" = "Chọn một mục khởi động";
+"itemsCount" = "%d mục";
+"coresHighFreq" = "%d lõi @ tần số cao";
+"coresLowPower" = "%d lõi @ tiết kiệm năng lượng";
+
+/* Startup Manager additional */
+"viewDetailsManage" = "Xem chi tiết và quản lý các launch agent chạy khi đăng nhập.";
+"autoStart" = "• Tự khởi động";
+
+/* Battery Health additional */
+"ofCycles" = "trong %d chu kỳ";
+
+/* Format strings for dynamic values */
+"percentValue" = "%d%%";
+"versionFormat" = "v%@";
+"portFormat" = ":%d";
+"addressPortFormat" = "%@:%d";
+"pidFormat" = "PID: %d";
+"rpmFormat" = "%d vòng/phút";
+"tempFormat" = "%d°C";
+"coreFormat" = "Lõi %d";
+"thresholdFormat" = "/ Ngưỡng: %@%@";
+
+/* Final batch - remaining static strings */
+"serialNumber" = "Số sê-ri";
+"device" = "Thiết bị";
+"charger" = "Bộ sạc";
+"noBatteryDetected" = "Không phát hiện pin";
+"of" = "trong %@";
+"available" = "khả dụng";
+"active" = "Hoạt động";
+"gpuSharesMemoryDesc" = "GPU chia sẻ bộ nhớ với CPU trên Apple Silicon. Không có VRAM riêng - toàn bộ bộ nhớ hệ thống đều khả dụng cho cả hai.";
+"ofHundred" = "/ 100";
+"suspiciousItemsFound" = "Phát hiện mục đáng ngờ";
+"itemsCountShort" = "%d mục";
+"appMovedToTrash" = "Ứng dụng và các tệp liên quan đã được chuyển vào Thùng rác.";
+"errorsOccurred" = "Đã xảy ra một số lỗi:";
+"versionPrefix" = "Phiên bản %@";
+"scanningDots" = "Đang quét...";
+"filesCount" = "%d tệp";
+"noRelatedFiles" = "Không tìm thấy tệp liên quan";
+"willBeMovedToTrash" = "Ứng dụng và %d tệp liên quan sẽ được chuyển vào Thùng rác.";
+"currentFormat" = "Hiện tại: %@%@";
+"thresholdLabel" = "Ngưỡng: %@%@";
+"noMatchingCommands" = "Không có lệnh phù hợp";
+"tryCommands" = "Thử: 'show cpu', 'đang dùng bộ nhớ', 'dọn đĩa'";
+"recent" = "Gần đây";
+"coresUnit" = "%d lõi";
+
+/* Final 16 strings - dynamic values */
+"securitySettingsGood" = "Cài đặt bảo mật của Mac bạn là %@. Tất cả các bảo vệ chính đã được bật.";
+"securitySettingsNeedsWork" = "Cài đặt bảo mật của Mac bạn là %@. Hãy bật thêm các bảo vệ để tăng cường bảo mật.";
+"cellCountFormat" = "%dS";
+"valueWithUnit" = "%d%@";
+
+/* Pure number format strings */
+"numberOnly" = "%d";
+"decimalValue" = "%.0f%@";
+
+/* CoreML Info Sheet */
+"mlStatus" = "Trạng thái";
+"mlDependencies" = "Phụ thuộc";
+"mlPrivacy" = "Quyền riêng tư";
+"mlStatusLearning" = "Đang học";
+"mlNoneBuiltIn" = "Không (tích hợp sẵn)";
+"ml100OnDevice" = "100% trên thiết bị";
+"mlCollectsBaseline" = "Thu thập dữ liệu cơ sở từ việc sử dụng bình thường";
+"mlCalculatesThresholds" = "Tính toán ngưỡng thống kê (trung bình ± 2σ)";
+"mlDetectsAnomalies" = "Phát hiện bất thường khi số liệu lệch đáng kể";
+"mlLearnssContinuously" = "Học liên tục khi bạn sử dụng Mac";
+
+/* Battery Health Tab - Detailed Stats */
+"batTemperature" = "Nhiệt độ";
+"batVoltage" = "Điện áp";
+"batPowerDraw" = "Công suất tiêu thụ";
+"batAmperage" = "Cường độ dòng điện";
+"batAdapter" = "Bộ sạc";
+"batFull" = "Đầy";
+"batOnBattery" = "Đang dùng pin";
+"batExcellent" = "Tình trạng tuyệt vời";
+"batGoodCondition" = "Tình trạng tốt";
+"batFairCondition" = "Tình trạng khá";
+"batConsiderReplacement" = "Cân nhắc thay thế";
+"batNone" = "Không có";
+
+/* Battery Tips */
+"tipKeepTemp" = "Giữ Mac trong khoảng 10°C đến 35°C để tối ưu tuổi thọ pin";
+"tipKeepCharge" = "Giữ pin trong khoảng 20-80% cho việc sử dụng hàng ngày";
+"tipRemoveCharger" = "Rút sạc khi đạt 100% để giảm nhiệt";
+"tipAppleRates" = "Apple đánh giá pin hoạt động tốt trong 1000 chu kỳ trước khi dung lượng giảm xuống 80%";
+
+/* Widget Labels */
+"widgetUsageHistory" = "Lịch sử sử dụng";
+"widgetTopProcesses" = "Tiến trình hàng đầu";
+"widgetActivity" = "Hoạt động";
+"selectWidgets" = "Chọn widgets hiển thị trên menu bar";
+
+/* xInsight Widget */
+"openDashboard" = "Mở Dashboard";
+"optimizeNow" = "Tối ưu ngay";
+"quickActions" = "Thao tác nhanh";
+"excellent" = "Xuất sắc";
+"good" = "Tốt";
+"fair" = "Khá";
+"poor" = "Yếu";
+
+/* AI Dashboard */
+"aiDashboard" = "Bảng điều khiển AI";
+"aiDashboardDesc" = "Phân tích thông minh với AI trên thiết bị";
+"aiSummary" = "Tóm tắt AI";
+"smartSuggestions" = "Gợi ý thông minh";
+"predictedIssues" = "Dự đoán vấn đề";
+"learningProgress" = "Tiến trình học";
+"modelAccuracy" = "Độ chính xác mô hình";
+"speakInsights" = "Đọc phân tích";
+"stopSpeaking" = "Dừng đọc";
+"voiceSettings" = "Cài đặt giọng nói";
+"voiceSettingsDesc" = "Cấu hình đầu ra văn bản-thành-giọng";
+"selectVoice" = "Chọn giọng";
+"speechRate" = "Tốc độ đọc";
+"slower" = "Chậm hơn";
+"faster" = "Nhanh hơn";
+"testVoice" = "Thử giọng";
+"testEnglish" = "Thử tiếng Anh";
+"testVietnamese" = "Thử tiếng Việt";
+"verySlow" = "Rất chậm";
+"slow" = "Chậm";
+"fast" = "Nhanh";
+"veryFast" = "Rất nhanh";
+"learning" = "Đang học";
+"ready" = "Sẵn sàng";
+"privacy" = "Riêng tư";
+"allOnDevice" = "100% trên thiết bị";
+"predictions" = "dự đoán";
+"noPredictedIssues" = "Không có vấn đề dự đoán - mọi thứ tốt!";
+"noSuggestionsNeeded" = "Không có gợi ý nào cần thiết lúc này";
+"speakSuggestion" = "Đọc gợi ý";
+"apply" = "Áp dụng";
+"probability" = "Xác suất";
+"analyzingSystem" = "Đang phân tích hệ thống...";
+
+/* Hardware Info Tab */
+"hwEssentialInfo" = "Thông tin thiết yếu";
+"hwCpuInfo" = "Thông tin kỹ thuật CPU";
+"hwMemoryInfo" = "Bộ nhớ";
+"hwGraphicsInfo" = "Đồ họa";
+"hwNeuralEngine" = "Neural Engine";
+"hwSystemInfo" = "Thông tin hệ thống";
+"hwStorageInfo" = "Lưu trữ";
+"hwModelName" = "Tên Model";
+"hwModelId" = "Mã Model";
+"hwArchitecture" = "Kiến trúc";
+"hwProcessNode" = "Tiến trình";
+"hwPerfCores" = "Số lõi hiệu năng";
+"hwEffCores" = "Số lõi tiết kiệm";
+"hwTotalCores" = "Tổng số lõi";
+"hwTotalThreads" = "Tổng số luồng";
+"hwMaxFrequency" = "Tần số tối đa";
+"hwL1Cache" = "L1 Cache";
+"hwL2Cache" = "L2 Cache";
+"hwCapacity" = "Dung lượng";
+"hwMemoryType" = "Loại";
+"hwMemorySpeed" = "Tốc độ";
+"hwMemoryArch" = "Kiến trúc";
+"hwBandwidth" = "Băng thông";
+"hwGpuName" = "Tên GPU";
+"hwGpuCores" = "Số lõi GPU";
+"hwGpuMemory" = "Bộ nhớ GPU";
+"hwRayTracing" = "Ray Tracing";
+"hwNeuralCores" = "Số lõi Neural";
+"hwNeuralPerf" = "Hiệu suất";
+"hwMlAccel" = "ML Accelerator";
+"hwCoreML" = "Core ML";
+"hwMacOS" = "macOS";
+"hwBuild" = "Build";
+"hwKernel" = "Kernel";
+"hwUptime" = "Thời gian hoạt động";
+"hwSerial" = "Số Serial";
+"hwStorageType" = "Loại";
+"hwStorageUsed" = "Đã sử dụng";
+"hwStorageAvailable" = "Còn trống";
+"hwYes" = "Có";
+"hwNo" = "Không";
+"hwOptimized" = "Tối ưu hóa";
+"hwSystemInformation" = "Thông tin hệ thống";
+
+/* Trends Tab */
+"trends" = "Xu hướng";
+"trendsAnalysis" = "Phân tích Xu hướng";
+"totalSnapshots" = "Tổng số Ảnh chụp";
+"usageOverTime" = "Mức sử dụng theo thời gian";
+"noHistoricalData" = "Chưa có dữ liệu lịch sử";
+"dataWillAppear" = "Dữ liệu sẽ xuất hiện sau vài phút theo dõi";
+"dailyPatterns" = "Mẫu theo ngày";
+"peakHours" = "Giờ cao điểm";
+"notEnoughData" = "Chưa đủ dữ liệu";
+"weeklyPatterns" = "Mẫu theo tuần";
+"detectedAnomalies" = "Bất thường phát hiện";
+"memoryLeakSuspects" = "Nghi ngờ rò rỉ bộ nhớ";
+
+/* Health Score */
+"healthScore" = "Điểm Sức Khỏe";
+"healthScoreDesc" = "Đánh giá tổng thể sức khỏe hệ thống (0-100)";
+"excellent" = "Xuất sắc";
+"good" = "Tốt";
+"fair" = "Khá";
+"poor" = "Yếu";
+"critical" = "Nguy cấp";
+"componentScores" = "Điểm Thành Phần";
+
+/* Process Timeline */
+"processTimeline" = "Dòng Thời Gian Tiến Trình";
+"processTimelineDesc" = "Theo dõi khi nào tiến trình bắt đầu và kết thúc";
+"processStarted" = "Đã bắt đầu";
+"processStopped" = "Đã dừng";
+"todayOnly" = "Chỉ hôm nay";
+"topByDuration" = "Theo thời lượng";
+"noProcessEvents" = "Không có sự kiện tiến trình";
+"ranFor" = "Chạy trong";
+
+/* Custom Alerts */
+"customAlerts" = "Cảnh Báo Tùy Chỉnh";
+"customAlertsDesc" = "Đặt ngưỡng để nhận thông báo";
+"addAlert" = "Thêm Cảnh Báo";
+"editAlert" = "Sửa Cảnh Báo";
+"alertName" = "Tên Cảnh Báo";
+"metric" = "Chỉ số";
+"condition" = "Điều kiện";
+"above" = "Trên";
+"below" = "Dưới";
+"equals" = "Bằng";
+"recentTriggers" = "Kích Hoạt Gần Đây";
+"noCustomAlerts" = "Không có cảnh báo tùy chỉnh";
+"alertEnabled" = "Cảnh báo đã bật";
+"alertDisabled" = "Cảnh báo đã tắt";
+
+/* Benchmarks */
+"benchmark" = "Kiểm Tra Hiệu Năng";
+"benchmarkDesc" = "Kiểm tra hiệu năng hệ thống";
+"runBenchmarks" = "Chạy Kiểm Tra";
+"cpuSingleCore" = "CPU Đơn Nhân";
+"cpuMultiCore" = "CPU Đa Nhân";
+"memoryBandwidth" = "Băng Thông Bộ Nhớ";
+"diskIO" = "I/O Đĩa";
+"graphics" = "Đồ Họa";
+"totalScore" = "Tổng Điểm";
+"benchmarkHistory" = "Lịch Sử Kiểm Tra";
+"baselineComparison" = "So Sánh Baseline";
+"runningBenchmark" = "Đang chạy kiểm tra...";
+
+/* Comparison Mode */
+"comparison" = "So Sánh";
+"comparisonDesc" = "So sánh chỉ số hệ thống giữa hai khoảng thời gian";
+"period1" = "Khoảng 1";
+"period2" = "Khoảng 2";
+"baseline" = "Baseline";
+"comparePeriods" = "So Sánh";
+"analysisSummary" = "Tóm Tắt Phân Tích";
+"noComparisonData" = "Chọn hai khoảng thời gian và nhấn So Sánh";
+"percentChange" = "% Thay Đổi";
+
+/* Theme & Appearance */
+"appearance" = "Giao Diện";
+"lightMode" = "Sáng";
+"darkMode" = "Tối";
+"systemMode" = "Hệ Thống";
+"accentColor" = "Màu Nhấn";
+"useDynamicColors" = "Sử dụng màu động";
+
+/* iCloud Sync */
+"iCloudSync" = "Đồng Bộ iCloud";
+"syncEnabled" = "Đã bật đồng bộ";
+"syncDisabled" = "Đã tắt đồng bộ";
+"lastSynced" = "Đồng bộ lần cuối";
+"syncing" = "Đang đồng bộ...";
+"syncNow" = "Đồng Bộ Ngay";
+"syncSettings" = "Đồng bộ cài đặt giữa các thiết bị";
+
+/* Shortcuts Integration */
+"shortcuts" = "Phím Tắt";
+"shortcutsDesc" = "Sử dụng xInsight với Phím Tắt macOS";
+"availableShortcuts" = "Phím tắt có sẵn";
+"getHealthScore" = "Lấy Điểm Sức Khỏe";
+"getCPUUsage" = "Lấy Mức Sử Dụng CPU";
+"getTemperature" = "Lấy Nhiệt Độ";
+
+/* Scheduled Reports */
+"scheduledReports" = "Báo Cáo Định Kỳ";
+"dailyReport" = "Báo Cáo Hàng Ngày";
+"weeklyReport" = "Báo Cáo Hàng Tuần";
+"reportGenerated" = "Đã tạo báo cáo";
+"reportTime" = "Thời Gian Báo Cáo";
+"enableReports" = "Bật Báo Cáo";
+"lastReport" = "Báo Cáo Cuối";
+
+/* Scheduled Exports */
+"scheduledExports" = "Xuất Định Kỳ";
+"exportFormat" = "Định Dạng";
+"exportFrequency" = "Tần Suất";
+"daily" = "Hàng ngày";
+"weekly" = "Hàng tuần";
+"monthly" = "Hàng tháng";
+"exportPath" = "Đường Dẫn";
+"exportHistory" = "Lịch Sử Xuất";
+"lastExport" = "Xuất Cuối";
+
+/* AppleScript */
+"appleScript" = "AppleScript";
+"automation" = "Tự Động Hóa";
+"exampleScripts" = "Script Mẫu";
+"executeScript" = "Chạy Script";
+
+/* Network Traffic Monitor */
+"networkMonitor" = "Giám Sát Mạng";
+"activeApps" = "Ứng Dụng Hoạt Động";
+"bytesIn" = "Bytes Vào";
+"bytesOut" = "Bytes Ra";
+"connectionCount" = "Số Kết Nối";
+
+/* Fan Control Installer */
+"fanControlSetup" = "Cài Đặt Điều Khiển Quạt";
+"fanControlDesc" = "Cấu hình điều khiển quạt phần cứng cho xInsight";
+"systemStatus" = "Trạng Thái Hệ Thống";
+"sipStatus" = "Bảo Vệ Toàn Vẹn Hệ Thống";
+"smcTool" = "Công Cụ SMC";
+"fanControlHelper" = "Helper Điều Khiển Quạt";
+"installSMCTool" = "Cài Đặt SMC Tool";
+"installHelper" = "Cài Đặt Helper";
+"installViaHomebrew" = "Cài qua Homebrew";
+"alternativeApps" = "Phương Án Thay Thế: Ứng Dụng Bên Thứ Ba";
+"sipWarningFan" = "Điều khiển quạt trực tiếp bị giới hạn. Sử dụng ứng dụng bên thứ ba.";
+"refreshStatus" = "Làm Mới";
+
+/* AI Tab - Additional Translations */
+"smartCleanup" = "Dọn Dẹp Thông Minh";
+"usagePatterns" = "Phân Tích Sử Dụng";
+"loading" = "Đang tải...";
+"askAI" = "Hỏi AI";
+"askPlaceholder" = "Hỏi bất cứ điều gì... VD: 'Tại sao Mac chậm?'";
+"ask" = "Hỏi";
+"smartProcessKiller" = "Tắt Tiến Trình Thông Minh";
+"recommendations" = "đề xuất";
+"noHeavyProcesses" = "Không có tiến trình nặng cần tắt";
+"kill" = "Tắt";
+"noCleanupRecs" = "Không có đề xuất dọn dẹp";
+"openCleanupTab" = "Mở Tab Dọn Dẹp";
+"gatheringData" = "Đang thu thập dữ liệu...";
+"systemHealthScore" = "Điểm Sức Khỏe Hệ Thống";
+"excellent" = "Xuất Sắc";
+"good" = "Tốt";
+"fair" = "Trung Bình";
+"poor" = "Yếu";
+"critical" = "Nguy Hiểm";
+"peakPerformance" = "Mac của bạn đang chạy ở hiệu suất cao nhất";
+"healthyMinor" = "Hệ thống khỏe mạnh với tài nguyên sử dụng nhẹ";
+"resourcesStrained" = "Một số tài nguyên đang căng thẳng. Hãy đóng bớt ứng dụng.";
+"highUsage" = "Phát hiện sử dụng tài nguyên cao. Nên có hành động.";
+"overloaded" = "Hệ thống quá tải. Cần hành động ngay.";
+"high" = "Cao";
+"medium" = "Trung Bình";
+"low" = "Thấp";
