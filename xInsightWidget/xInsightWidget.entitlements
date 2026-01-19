@@ -6,7 +6,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>asia.xdev.xInsight-lite.widget</string>
+		<string>group.asia.xdev.xInsight-lite</string>
 	</array>
 </dict>
 </plist>
